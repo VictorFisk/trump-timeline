@@ -1,0 +1,11 @@
+{
+  "name": "trump-timeline-updater",
+  "version": "1.0.0",
+  "description": "Weekly news fetcher for Trump Timeline",
+  "scripts": {
+    "update": "node scripts/fetch-news.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
