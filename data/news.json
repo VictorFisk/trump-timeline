@@ -1,0 +1,79 @@
+[
+  {
+    "id": "seed-001",
+    "date": "2017-01-20",
+    "headline": "Donald Trump Inaugurated as 45th President of the United States",
+    "source": "Associated Press",
+    "summary": "Donald Trump was sworn in as the 45th President of the United States on January 20, 2017, marking the beginning of his first term. His inaugural address focused on 'America First' themes, promising to return power to the American people.",
+    "sentiment": "neutral",
+    "sentimentScore": 0,
+    "sentimentReason": "An inauguration is a factual milestone event. Coverage was mixed — supporters celebrated while protests occurred in Washington D.C. simultaneously, making an overall neutral classification most accurate.",
+    "url": ""
+  },
+  {
+    "id": "seed-002",
+    "date": "2017-01-27",
+    "headline": "Trump Signs Executive Order on Immigration, Sparking Airport Protests",
+    "source": "Reuters",
+    "summary": "Trump signed an executive order temporarily banning travelers from seven Muslim-majority countries, halting the refugee program, and prioritizing Christian refugees. The order triggered immediate protests at airports nationwide and legal challenges.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The article focuses heavily on widespread protests, legal challenges, and criticism from civil liberties groups and foreign governments. The framing centers on chaos and controversy rather than policy justification.",
+    "url": ""
+  },
+  {
+    "id": "seed-003",
+    "date": "2017-04-07",
+    "headline": "Trump Orders Missile Strike on Syrian Air Base After Chemical Attack",
+    "source": "BBC News",
+    "summary": "The U.S. launched 59 Tomahawk missiles at a Syrian government airbase in response to a chemical weapons attack that killed dozens of civilians. The strike was praised by many allies but criticized by Russia and Syria.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage was split — some outlets praised decisive action against chemical weapons use, while others questioned legality and escalation risks. Mixed international reaction results in a near-neutral score.",
+    "url": ""
+  },
+  {
+    "id": "seed-004",
+    "date": "2020-11-07",
+    "headline": "Joe Biden Declared Winner of 2020 Presidential Election",
+    "source": "CNN",
+    "summary": "Major news networks called the 2020 presidential election for Joe Biden, ending Trump's bid for a second consecutive term. Trump refused to concede, alleging widespread voter fraud without providing evidence.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage frames Trump's loss and refusal to concede as a significant political defeat, with his fraud allegations described as baseless by election officials and courts.",
+    "url": ""
+  },
+  {
+    "id": "seed-005",
+    "date": "2021-01-06",
+    "headline": "Capitol Building Stormed by Trump Supporters After Rally",
+    "source": "The New York Times",
+    "summary": "Supporters of President Trump stormed the U.S. Capitol building as Congress was certifying the Electoral College results, resulting in deaths, injuries, and widespread condemnation. Trump was subsequently impeached a second time.",
+    "sentiment": "negative",
+    "sentimentScore": -10,
+    "sentimentReason": "Universally condemned across the political spectrum as an assault on democracy. Coverage was overwhelmingly negative, describing it as an insurrection. Trump received his second impeachment as a direct result.",
+    "url": ""
+  },
+  {
+    "id": "seed-006",
+    "date": "2024-11-06",
+    "headline": "Trump Wins 2024 Presidential Election, Becomes 47th President",
+    "source": "Associated Press",
+    "summary": "Donald Trump defeated Vice President Kamala Harris in the 2024 presidential election, becoming the first president in U.S. history to win non-consecutive terms. Republicans also gained control of the Senate.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "A historic political comeback victory — the first non-consecutive presidential win since Grover Cleveland. Coverage acknowledged the significance of the achievement broadly, even among critical outlets.",
+    "url": ""
+  },
+  {
+    "id": "seed-007",
+    "date": "2025-01-20",
+    "headline": "Trump Inaugurated as 47th President of the United States",
+    "source": "Reuters",
+    "summary": "Donald Trump was inaugurated as the 47th President of the United States, beginning his second non-consecutive term. He signed a flurry of executive orders on his first day, including on immigration and energy policy.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "The inauguration itself is a neutral milestone, though the rapid signing of executive orders drew both enthusiastic support from conservatives and sharp criticism from progressives, balancing the overall sentiment.",
+    "url": ""
+  }
+]
