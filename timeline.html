@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trump Timeline — Visual Graphic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;1,8..60,300&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --ink: #0f0e0d;
+      --paper: #f5f0e8;
+      --paper-dark: #ede7d5;
+      --accent-gold: #b5960a;
+      --positive: #1a6b3a;
+      --positive-bg: #e8f5ee;
+      --positive-light: #4caf76;
+      --negative: #c0392b;
+      --negative-bg: #fbeaea;
+      --negative-light: #e06555;
+      --neutral: #666;
+      --neutral-bg: #f0ede5;
+      --neutral-light: #999;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'Source Serif 4', Georgia, serif;
+      min-height: 100vh;
+    }
+
+    /* ── MASTHEAD ── */
+    .masthead {
+      background: var(--ink);
+      color: var(--paper);
+      padding: 18px 24px 14px;
+      border-bottom: 4px solid var(--accent-gold);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .masthead-title {
+      font-family: 'Playfair Display', Georgia, serif;
+      font-size: clamp(1.4rem, 3.5vw, 2.1rem);
+      font-weight: 900;
+      letter-spacing: -0.02em;
+      line-height: 1;
+    }
+
+    .masthead-title span { color: var(--accent-gold); }
+
+    .masthead-nav {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+    }
+
+    .nav-btn {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 7px 16px;
+      border-radius: 2px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s;
+    }
+
+    .nav-btn.outline {
+      background: transparent;
+      border: 1px solid #555;
+      color: #aaa;
+    }
+
+    .nav-btn.outline:hover {
+      border-color: var(--accent-gold);
+      color: var(--accent-gold);
+    }
+
+    .nav-btn.active {
+      background: var(--accent-gold);
+      border: 1px solid var(--accent-gold);
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    /* ── LEGEND ── */
+    .legend-bar {
+      background: var(--paper-dark);
+      border-bottom: 1px solid #c8bfa8;
+      padding: 12px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+      flex-wrap: wrap;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #666;
+    }
+
+    .legend-dot {
+      width: 14px; height: 14px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    .legend-arrow {
+      font-size: 0.8rem;
+      opacity: 0.5;
+    }
+
+    /* ── MAIN ── */
+    .main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+
+    /* ── FILTER ── */
+    .filter-row {
+      display: flex;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+
+    .fbtn {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 6px 16px;
+      border: 1px solid #bbb;
+      border-radius: 2px;
+      cursor: pointer;
+      background: transparent;
+      color: var(--ink);
+      transition: all 0.15s;
+    }
+
+    .fbtn:hover, .fbtn.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .fbtn.pos.active { background: var(--positive); border-color: var(--positive); }
+    .fbtn.neg.active { background: var(--negative); border-color: var(--negative); }
+    .fbtn.neu.active { background: var(--neutral); border-color: var(--neutral); }
+
+    /* ── TIMELINE CONTAINER ── */
+    .timeline-wrap {
+      position: relative;
+    }
+
+    /* ── TOOLTIP ── */
+    .tooltip {
+      position: fixed;
+      background: white;
+      border: 1px solid #ddd5c0;
+      border-radius: 4px;
+      padding: 16px 18px;
+      width: 270px;
+      z-index: 200;
+      pointer-events: none;
+      opacity: 0;
+      transform: translateY(6px);
+      transition: opacity 0.18s, transform 0.18s;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+
+    .tooltip.visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .tt-date {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      color: #aaa;
+      letter-spacing: 0.06em;
+      margin-bottom: 5px;
+    }
+
+    .tt-headline {
+      font-family: 'Playfair Display', serif;
+      font-size: 0.95rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+
+    .tt-summary {
+      font-size: 0.8rem;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    .tt-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    .tt-badge {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.62rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 9px;
+      border-radius: 2px;
+      font-weight: 500;
+    }
+
+    .tt-badge.positive { background: var(--positive-bg); color: var(--positive); }
+    .tt-badge.negative { background: var(--negative-bg); color: var(--negative); }
+    .tt-badge.neutral  { background: var(--neutral-bg); color: var(--neutral); }
+
+    .tt-score {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.72rem;
+      font-weight: 500;
+    }
+
+    .tt-close {
+      position: absolute;
+      top: 8px; right: 10px;
+      background: none;
+      border: none;
+      font-size: 16px;
+      cursor: pointer;
+      color: #aaa;
+      line-height: 1;
+    }
+
+    .tt-close:hover { color: var(--ink); }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--ink);
+      color: #888;
+      text-align: center;
+      padding: 24px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 0.65rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-top: 3px solid var(--accent-gold);
+    }
+
+    @media (max-width: 600px) {
+      .legend-bar { gap: 16px; }
+      .masthead { flex-direction: column; align-items: flex-start; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="masthead">
+    <h1 class="masthead-title">Trump<span>Timeline</span></h1>
+    <nav class="masthead-nav">
+      <a href="index.html" class="nav-btn outline">◀ News Archive</a>
+      <span class="nav-btn active">Visual Timeline</span>
+    </nav>
+  </header>
+
+  <div class="legend-bar">
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--positive)"></div>
+      <span class="legend-arrow">←</span>
+      Positive — left side
+    </div>
+    <div class="legend-item">
+      <div class="legend-dot" style="background:var(--neutral)"></div>
+      Neutral — centre
+    </div>
+    <div class="legend-item">
+      Negative — right side
+      <span class="legend-arrow">→</span>
+      <div class="legend-dot" style="background:var(--negative)"></div>
+    </div>
+  </div>
+
+  <main class="main">
+    <div class="filter-row">
+      <button class="fbtn active" data-f="all">All</button>
+      <button class="fbtn pos" data-f="positive">🟢 Positive</button>
+      <button class="fbtn neg" data-f="negative">🔴 Negative</button>
+      <button class="fbtn neu" data-f="neutral">⚪ Neutral</button>
+    </div>
+
+    <div class="timeline-wrap" id="timeline-wrap">
+      <!-- SVG injected by JS -->
+    </div>
+  </main>
+
+  <div class="tooltip" id="tooltip">
+    <button class="tt-close" onclick="closeTooltip()">×</button>
+    <div class="tt-date" id="tt-date"></div>
+    <div class="tt-headline" id="tt-headline"></div>
+    <div class="tt-summary" id="tt-summary"></div>
+    <div class="tt-footer">
+      <span class="tt-badge" id="tt-badge"></span>
+      <span class="tt-score" id="tt-score"></span>
+    </div>
+  </div>
+
+  <footer>Trump Timeline &mdash; Powered by Claude AI &mdash; Updates every Monday
+  </footer>
+
+  <script>
+    // ── Load news from data/news.json ──────────────────
+    let NEWS = [];
+    let activeFilter = 'all';
+    let activeId = null;
+
+    async function init() {
+      try {
+        const res = await fetch('data/news.json?t=' + Date.now());
+        NEWS = await res.json();
+        NEWS.sort((a, b) => new Date(a.date) - new Date(b.date));
+      } catch(e) {
+        // Fallback seed data if file not found
+        NEWS = [
+          { id:1, date:"2017-01-20", headline:"Trump Inaugurated as 45th President", summary:"Donald Trump sworn in as 45th President. Inaugural address focused on 'America First' themes.", sentiment:"neutral", sentimentScore:0, sentimentReason:"A factual milestone with mixed coverage." },
+          { id:2, date:"2017-01-27", headline:"Travel Ban Sparks Airport Protests", summary:"Executive order banning travelers from seven Muslim-majority countries triggered protests and legal challenges.", sentiment:"negative", sentimentScore:-7, sentimentReason:"Coverage focused on chaos, protests, and legal challenges." },
+          { id:3, date:"2017-04-07", headline:"U.S. Launches Missile Strike on Syria", summary:"59 Tomahawk missiles fired at Syrian airbase after chemical attack. Mixed international reaction.", sentiment:"neutral", sentimentScore:1, sentimentReason:"Mixed coverage — decisive action vs escalation fears." },
+          { id:4, date:"2018-06-12", headline:"Historic Singapore Summit with Kim Jong-un", summary:"First sitting U.S. president to meet North Korean leader. Joint statement on denuclearization signed.", sentiment:"positive", sentimentScore:6, sentimentReason:"Widely covered as a historic diplomatic breakthrough." },
+          { id:5, date:"2019-12-18", headline:"House Impeaches Trump for Abuse of Power", summary:"Trump became third U.S. president impeached by the House over Ukraine phone call. Senate later acquitted.", sentiment:"negative", sentimentScore:-8, sentimentReason:"Predominantly negative framing — constitutional crisis language." },
+          { id:6, date:"2020-03-13", headline:"National Emergency Declared Over COVID-19", summary:"Trump declared COVID-19 a national emergency, freeing $50 billion in federal funds.", sentiment:"neutral", sentimentScore:-2, sentimentReason:"Action welcomed but scrutinized over delayed response." },
+          { id:7, date:"2020-11-07", headline:"Biden Declared Winner of 2020 Election", summary:"Biden won the presidency. Trump refused to concede, alleging widespread fraud without evidence.", sentiment:"negative", sentimentScore:-6, sentimentReason:"Fraud allegations described as baseless drove negative framing." },
+          { id:8, date:"2021-01-06", headline:"Capitol Stormed by Trump Supporters", summary:"Supporters stormed the U.S. Capitol during certification of electoral votes. Deaths and injuries reported.", sentiment:"negative", sentimentScore:-10, sentimentReason:"Universally condemned. Led directly to second impeachment." },
+          { id:9, date:"2023-06-09", headline:"Trump Indicted on Federal Charges", summary:"First former U.S. president to face federal charges — 37 counts related to classified documents.", sentiment:"negative", sentimentScore:-8, sentimentReason:"Historic negative milestone dominated coverage." },
+          { id:10, date:"2024-07-13", headline:"Trump Survives Assassination Attempt", summary:"Trump grazed by a bullet at Pennsylvania rally. One attendee killed. Shooter neutralized.", sentiment:"neutral", sentimentScore:0, sentimentReason:"Bipartisan condemnation of political violence balanced the event." },
+          { id:11, date:"2024-11-06", headline:"Trump Wins 2024 Presidential Election", summary:"Trump defeated Kamala Harris, becoming first president to win non-consecutive terms since Grover Cleveland.", sentiment:"positive", sentimentScore:8, sentimentReason:"Historic comeback widely acknowledged even by critical outlets." },
+          { id:12, date:"2025-01-20", headline:"Trump Inaugurated as 47th President", summary:"Trump begins second term, signing executive orders on immigration, energy and federal workforce.", sentiment:"neutral", sentimentScore:2, sentimentReason:"Neutral milestone; executive orders drew both support and criticism." }
+        ];
+      }
+      render();
+    }
+
+    // ── Colours ────────────────────────────────────────
+    const COL  = { positive:'#1a6b3a', negative:'#c0392b', neutral:'#888' };
+    const COLB = { positive:'#e8f5ee', negative:'#fbeaea', neutral:'#f0ede5' };
+
+    // ── Layout constants ───────────────────────────────
+    const W       = 860;
+    const CX      = W / 2;          // centre line x
+    const DOT_R   = 8;              // default dot radius
+    const DOT_R_A = 12;             // active dot radius
+    const H_OFFSET = 100;           // horizontal distance from centre to dot
+    const LABEL_GAP = 14;           // gap between dot and label
+    const TOP     = 50;
+    const BOT     = 50;
+    const ROW_H   = 66;             // vertical space per event
+
+    function render() {
+      const filtered = activeFilter === 'all'
+        ? NEWS
+        : NEWS.filter(n => n.sentiment === activeFilter);
+
+      const sorted = [...filtered].sort((a,b) => new Date(a.date) - new Date(b.date));
+      const totalH = TOP + sorted.length * ROW_H + BOT;
+
+      let svg = `<svg id="tl-svg" width="100%" viewBox="0 0 ${W} ${totalH}" xmlns="http://www.w3.org/2000/svg" style="display:block">`;
+
+      // Era bands (subtle)
+      const allDates = sorted.map(n => new Date(n.date));
+      if (allDates.length > 0) {
+        const eras = [
+          { label:'1st Term', from:'2017-01-20', to:'2021-01-20', col:'rgba(0,0,0,0.02)' },
+          { label:'Post-presidency', from:'2021-01-20', to:'2025-01-20', col:'rgba(0,0,0,0.05)' },
+          { label:'2nd Term', from:'2025-01-20', to:'2026-01-01', col:'rgba(0,0,0,0.02)' }
+        ];
+        const startDate = new Date('2017-01-20');
+        const endDate   = new Date('2026-01-01');
+        const span      = endDate - startDate;
+        const usableH   = totalH - TOP - BOT;
+
+        eras.forEach(era => {
+          const y1pct = (new Date(era.from) - startDate) / span;
+          const y2pct = (new Date(era.to)   - startDate) / span;
+          const y1 = TOP + y1pct * usableH;
+          const y2 = TOP + y2pct * usableH;
+          if (y2 > TOP && y1 < totalH - BOT) {
+            svg += `<rect x="0" y="${Math.max(TOP, y1)}" width="${W}" height="${Math.min(totalH-BOT,y2)-Math.max(TOP,y1)}" fill="${era.col}"/>`;
+          }
+        });
+      }
+
+      // Centre vertical line
+      svg += `<line x1="${CX}" y1="${TOP - 10}" x2="${CX}" y2="${totalH - BOT + 10}" stroke="#ccc" stroke-width="1.5"/>`;
+
+      // Year markers along centre line
+      const years = [2017,2018,2019,2020,2021,2022,2023,2024,2025];
+      years.forEach(yr => {
+        const idx = rowIndexForDate(`${yr}-01-01`, sorted);
+        if (idx < 0) return;
+        const y = TOP + idx * ROW_H;
+        svg += `<line x1="${CX-6}" y1="${y}" x2="${CX+6}" y2="${y}" stroke="#bbb" stroke-width="1"/>`;
+        svg += `<text x="${CX}" y="${y - 5}" text-anchor="middle" font-size="10" font-family="IBM Plex Mono, monospace" fill="#bbb" letter-spacing="0.06em">${yr}</text>`;
+      });
+
+      // Events
+      sorted.forEach((item, i) => {
+        const y   = TOP + i * ROW_H + ROW_H / 2;
+        const col = COL[item.sentiment];
+        const isActive = item.id === activeId;
+        const r   = isActive ? DOT_R_A : DOT_R;
+
+        // Left = positive, Right = negative, Centre = neutral
+        let dotX;
+        if (item.sentiment === 'positive')      dotX = CX - H_OFFSET;
+        else if (item.sentiment === 'negative') dotX = CX + H_OFFSET;
+        else                                     dotX = CX;
+
+        // Connector from centre line to dot (only for left/right dots)
+        if (item.sentiment !== 'neutral') {
+          svg += `<line x1="${CX}" y1="${y}" x2="${dotX}" y2="${y}" stroke="${col}" stroke-width="1" opacity="0.35"/>`;
+        }
+
+        // Active ring
+        if (isActive) {
+          svg += `<circle cx="${dotX}" cy="${y}" r="${r + 6}" fill="none" stroke="${col}" stroke-width="1.5" opacity="0.35"/>`;
+        }
+
+        // Dot
+        svg += `<circle cx="${dotX}" cy="${y}" r="${r}" fill="${col}" style="cursor:pointer;transition:r 0.15s"
+          onclick="handleClick(${JSON.stringify(item.id)}, ${dotX}, ${y})"
+          onmouseenter="this.setAttribute('r','${r+3}')"
+          onmouseleave="this.setAttribute('r','${r}')"/>`;
+
+        // Label
+        const isLeft = item.sentiment === 'positive';
+        const labelX = isLeft
+          ? dotX - r - LABEL_GAP
+          : (item.sentiment === 'neutral' ? CX + r + LABEL_GAP : dotX + r + LABEL_GAP);
+        const anchor = isLeft ? 'end' : 'start';
+
+        // Truncate label to fit
+        const maxChars = isLeft
+          ? Math.floor((labelX - 10) / 6.5)
+          : Math.floor((W - labelX - 10) / 6.5);
+        let label = item.headline;
+        if (label.length > maxChars) label = label.slice(0, maxChars - 1) + '…';
+
+        const fw = isActive ? '500' : '400';
+        const fc = isActive ? '#0f0e0d' : '#666';
+        svg += `<text x="${labelX}" y="${y + 4}" text-anchor="${anchor}" font-size="11.5"
+          font-family="Source Serif 4, Georgia, serif" fill="${fc}" font-weight="${fw}"
+          style="cursor:pointer" onclick="handleClick(${JSON.stringify(item.id)}, ${dotX}, ${y})">${label}</text>`;
+
+        // Date label near dot (small, mono)
+        const dateLabel = formatDateShort(item.date);
+        const dateLabelX = isLeft ? dotX + r + 4 : dotX - r - 4;
+        const dateAnchor = isLeft ? 'start' : 'end';
+        svg += `<text x="${dateLabelX}" y="${y + 4}" text-anchor="${dateAnchor}" font-size="9.5"
+          font-family="IBM Plex Mono, monospace" fill="#bbb">${dateLabel}</text>`;
+      });
+
+      svg += '</svg>';
+      document.getElementById('timeline-wrap').innerHTML = svg;
+    }
+
+    function rowIndexForDate(dateStr, sorted) {
+      const d = new Date(dateStr);
+      // find first event on or after this date
+      for (let i = 0; i < sorted.length; i++) {
+        if (new Date(sorted[i].date) >= d) return i;
+      }
+      return -1;
+    }
+
+    function formatDateShort(d) {
+      return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US',
+        { month:'short', year:'2-digit', timeZone:'UTC' });
+    }
+
+    function formatDateFull(d) {
+      return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US',
+        { month:'long', day:'numeric', year:'numeric', timeZone:'UTC' });
+    }
+
+    function handleClick(id, dotX, dotY) {
+      if (activeId === id) { closeTooltip(); return; }
+      activeId = id;
+      render();
+
+      const item = NEWS.find(n => n.id === id);
+      if (!item) return;
+
+      document.getElementById('tt-date').textContent     = formatDateFull(item.date);
+      document.getElementById('tt-headline').textContent = item.headline;
+      document.getElementById('tt-summary').textContent  = item.summary;
+      const badge = document.getElementById('tt-badge');
+      badge.textContent  = item.sentiment.charAt(0).toUpperCase() + item.sentiment.slice(1);
+      badge.className    = 'tt-badge ' + item.sentiment;
+      const sign = item.sentimentScore > 0 ? '+' : '';
+      document.getElementById('tt-score').textContent = `Score: ${sign}${item.sentimentScore}`;
+
+      // Position tooltip near dot
+      const svgEl  = document.getElementById('tl-svg');
+      const svgRect = svgEl.getBoundingClientRect();
+      const scaleX  = svgRect.width  / 860;
+      const scaleY  = svgRect.height / parseFloat(svgEl.getAttribute('viewBox').split(' ')[3]);
+
+      let px = svgRect.left + dotX * scaleX + window.scrollX;
+      let py = svgRect.top  + dotY * scaleY + window.scrollY;
+
+      const tt = document.getElementById('tooltip');
+      const ttW = 270;
+      const ttH = 200;
+
+      // Flip left if too close to right edge
+      if (px + ttW + 20 > window.innerWidth) px -= (ttW + 20);
+      else px += 16;
+
+      // Flip up if too close to bottom
+      if (py + ttH + 20 > window.innerHeight + window.scrollY) py -= ttH;
+      else py -= 20;
+
+      tt.style.left = Math.max(8, px) + 'px';
+      tt.style.top  = Math.max(8, py) + 'px';
+      tt.classList.add('visible');
+    }
+
+    function closeTooltip() {
+      document.getElementById('tooltip').classList.remove('visible');
+      activeId = null;
+      render();
+    }
+
+    // Close tooltip on outside click
+    document.addEventListener('click', e => {
+      const tt = document.getElementById('tooltip');
+      if (!tt.contains(e.target) && !e.target.closest('#timeline-wrap')) {
+        closeTooltip();
+      }
+    });
+
+    // Filters
+    document.querySelectorAll('.fbtn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        activeFilter = btn.dataset.f;
+        activeId = null;
+        document.getElementById('tooltip').classList.remove('visible');
+        render();
+      });
+    });
+
+    init();
+  </script>
+</body>
+</html>
