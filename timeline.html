@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trump Timeline — Visual Graphic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,400&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #0f0e0d;
+      --paper: #f5f0e8;
+      --paper-dark: #ede7d5;
+      --gold: #b5960a;
+      --gold-light: #f5eec8;
+      --pos: #1a6b3a;
+      --pos-bg: #e8f5ee;
+      --neg: #c0392b;
+      --neg-bg: #fbeaea;
+      --neu: #777;
+      --neu-bg: #f0ede5;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--paper); color: var(--ink); font-family: 'Source Serif 4', Georgia, serif; min-height: 100vh; }
+
+    .masthead { background: var(--ink); color: var(--paper); padding: 16px 24px; border-bottom: 4px solid var(--gold); display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+    .masthead-title { font-family: 'Playfair Display', serif; font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 900; letter-spacing: -0.02em; }
+    .masthead-title span { color: var(--gold); }
+    .nav-btn { font-family: 'IBM Plex Mono', monospace; font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 7px 15px; border-radius: 2px; cursor: pointer; text-decoration: none; transition: all 0.15s; }
+    .nav-btn.outline { background: transparent; border: 1px solid #555; color: #aaa; }
+    .nav-btn.outline:hover { border-color: var(--gold); color: var(--gold); }
+    .nav-btn.current { background: var(--gold); border: 1px solid var(--gold); color: var(--ink); font-weight: 500; }
+
+    .legend-bar { background: var(--paper-dark); border-bottom: 1px solid #c8bfa8; padding: 11px 24px; display: flex; align-items: center; justify-content: center; gap: 24px; flex-wrap: wrap; }
+    .legend-item { display: flex; align-items: center; gap: 7px; font-family: 'IBM Plex Mono', monospace; font-size: 0.64rem; text-transform: uppercase; letter-spacing: 0.08em; color: #888; }
+    .ldot { width: 11px; height: 11px; border-radius: 50%; flex-shrink: 0; }
+    .lquote { width: 14px; height: 14px; border-radius: 3px; background: var(--gold); flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 9px; color: #fff; font-style: italic; font-weight: 700; }
+
+    .main { max-width: 980px; margin: 0 auto; padding: 28px 20px 80px; }
+    .filter-row { display: flex; gap: 8px; justify-content: center; margin-bottom: 28px; flex-wrap: wrap; }
+    .fbtn { font-family: 'IBM Plex Mono', monospace; font-size: 0.66rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 5px 14px; border: 1px solid #bbb; border-radius: 2px; cursor: pointer; background: transparent; color: var(--ink); transition: all 0.15s; }
+    .fbtn:hover { background: #eee; }
+    .fbtn.active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+    .fbtn.pos.active { background: var(--pos); border-color: var(--pos); }
+    .fbtn.neg.active { background: var(--neg); border-color: var(--neg); }
+    .fbtn.neu.active { background: var(--neu); border-color: var(--neu); }
+    .fbtn.quote.active { background: var(--gold); border-color: var(--gold); color: var(--ink); }
+
+    /* Timeline rows */
+    .tl-row {
+      display: flex;
+      align-items: center;
+      position: relative;
+      min-height: 52px;
+      padding: 4px 0;
+    }
+
+    /* Quote rows are taller to show more text */
+    .tl-row.is-quote {
+      min-height: 60px;
+      background: linear-gradient(to right, transparent 0%, rgba(181,150,10,0.04) 30%, rgba(181,150,10,0.04) 70%, transparent 100%);
+    }
+
+    .tl-year-divider {
+      display: flex;
+      align-items: center;
+      height: 32px;
+      margin: 4px 0 0;
+    }
+    .yr-line { flex: 1; height: 1px; background: #ddd5c0; }
+    .yr-pill { font-family: 'IBM Plex Mono', monospace; font-size: 10px; color: #aaa; letter-spacing: 0.06em; background: var(--paper-dark); border: 1px solid #ddd5c0; border-radius: 3px; padding: 2px 8px; white-space: nowrap; margin: 0 10px; }
+
+    .col-left { width: calc(50% - 70px); display: flex; align-items: center; justify-content: flex-end; padding-right: 12px; gap: 8px; }
+    .col-centre { width: 140px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; position: relative; }
+    .col-right { width: calc(50% - 70px); display: flex; align-items: center; justify-content: flex-start; padding-left: 12px; gap: 8px; }
+
+    .tl-body { position: relative; }
+    .centre-line { position: absolute; left: 50%; transform: translateX(-50%); width: 1px; top: 0; bottom: 0; background: #d0c8b8; pointer-events: none; z-index: 0; }
+
+    /* News dots */
+    .dot { width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0; cursor: pointer; transition: transform 0.15s, box-shadow 0.15s; position: relative; z-index: 2; }
+    .dot:hover { transform: scale(1.35); box-shadow: 0 0 0 3px rgba(0,0,0,0.1); }
+    .dot.pos { background: var(--pos); }
+    .dot.neg { background: var(--neg); }
+    .dot.neu { background: var(--neu); }
+
+    /* Quote marker — gold diamond on the centre line */
+    .quote-marker {
+      width: 16px;
+      height: 16px;
+      background: var(--gold);
+      border-radius: 3px;
+      transform: rotate(45deg);
+      flex-shrink: 0;
+      cursor: pointer;
+      transition: transform 0.15s, box-shadow 0.15s;
+      position: relative;
+      z-index: 2;
+    }
+    .quote-marker:hover {
+      transform: rotate(45deg) scale(1.3);
+      box-shadow: 0 0 0 3px rgba(181,150,10,0.2);
+    }
+
+    .date-tag { font-family: 'IBM Plex Mono', monospace; font-size: 9px; color: #c0b8a8; white-space: nowrap; flex-shrink: 0; z-index: 2; }
+
+    /* News headline */
+    .headline { font-family: 'Source Serif 4', Georgia, serif; font-size: 12px; color: #555; cursor: pointer; line-height: 1.4; z-index: 2; transition: color 0.12s; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+    .headline:hover { color: var(--ink); }
+
+    /* Quote text — italic, gold-tinted */
+    .quote-text { font-family: 'Playfair Display', serif; font-size: 11.5px; font-style: italic; color: #8a6e00; cursor: pointer; line-height: 1.45; z-index: 2; transition: color 0.12s; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+    .quote-text:hover { color: var(--gold); }
+
+    /* Era bands */
+    .era-band { background: rgba(0,0,0,0.025); }
+
+    /* Popups */
+    .popup { position: fixed; z-index: 500; width: 300px; background: #fff; border: 1px solid #ddd5c0; border-radius: 5px; padding: 15px 17px 14px; box-shadow: 0 8px 28px rgba(0,0,0,0.13); opacity: 0; pointer-events: none; transform: translateY(5px); transition: opacity 0.17s, transform 0.17s; }
+    .popup.visible { opacity: 1; pointer-events: auto; transform: translateY(0); }
+    .popup.quote-popup { border-top: 3px solid var(--gold); }
+    .popup-close { position: absolute; top: 8px; right: 11px; background: none; border: none; font-size: 17px; cursor: pointer; color: #bbb; line-height: 1; padding: 2px 5px; }
+    .popup-close:hover { color: var(--ink); }
+    .popup-type { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.12em; color: #bbb; margin-bottom: 5px; }
+    .popup-type.gold { color: var(--gold); }
+    .popup-date { font-family: 'IBM Plex Mono', monospace; font-size: 0.63rem; color: #bbb; margin-bottom: 7px; }
+    .popup-headline { font-family: 'Playfair Display', serif; font-size: 0.92rem; font-weight: 700; line-height: 1.35; color: var(--ink); margin-bottom: 9px; }
+    .popup-quote-text { font-family: 'Playfair Display', serif; font-size: 1rem; font-style: italic; color: #5a4500; line-height: 1.55; margin-bottom: 10px; border-left: 3px solid var(--gold); padding-left: 12px; }
+    .popup-text { font-size: 0.8rem; color: #555; line-height: 1.65; margin-bottom: 11px; }
+    .popup-source-row { display: flex; align-items: center; gap: 8px; }
+    .popup-footer { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+    .popup-badge { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; text-transform: uppercase; letter-spacing: 0.08em; padding: 3px 9px; border-radius: 2px; font-weight: 500; }
+    .popup-badge.positive { background: var(--pos-bg); color: var(--pos); }
+    .popup-badge.negative { background: var(--neg-bg); color: var(--neg); }
+    .popup-badge.neutral  { background: var(--neu-bg); color: var(--neu); }
+    .popup-source { font-family: 'IBM Plex Mono', monospace; font-size: 0.63rem; color: #aaa; }
+    .score-bar-wrap { display: flex; align-items: center; gap: 8px; margin-top: 10px; }
+    .score-bar-track { flex: 1; height: 5px; border-radius: 3px; background: linear-gradient(to right, var(--neg), #ccc 50%, var(--pos)); position: relative; }
+    .score-bar-thumb { position: absolute; top: 50%; transform: translate(-50%,-50%); width: 11px; height: 11px; border-radius: 50%; background: var(--ink); border: 2px solid #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+    .score-label { font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; color: #888; min-width: 28px; text-align: right; font-weight: 500; }
+
+    footer { background: var(--ink); color: #888; text-align: center; padding: 22px; font-family: 'IBM Plex Mono', monospace; font-size: 0.63rem; letter-spacing: 0.08em; text-transform: uppercase; border-top: 3px solid var(--gold); }
+
+    @media (max-width: 600px) {
+      .masthead { flex-direction: column; align-items: flex-start; }
+      .legend-bar { gap: 12px; }
+      .headline, .quote-text { font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="masthead">
+  <h1 class="masthead-title">Trump<span>Timeline</span></h1>
+  <nav style="display:flex;gap:10px;align-items:center">
+    <a href="index.html" class="nav-btn outline">◀ News Archive</a>
+    <span class="nav-btn current">Visual Timeline</span>
+  </nav>
+</header>
+
+<div class="legend-bar">
+  <div class="legend-item"><div class="ldot" style="background:var(--pos)"></div>← Positive</div>
+  <div class="legend-item"><div class="ldot" style="background:var(--neu)"></div>Neutral</div>
+  <div class="legend-item">Negative →<div class="ldot" style="background:var(--neg)"></div></div>
+  <div class="legend-item" style="border-left:1px solid #c8bfa8;padding-left:20px;margin-left:4px">
+    <div class="lquote">❝</div>Trump Quote
+  </div>
+</div>
+
+<main class="main">
+  <div class="filter-row">
+    <button class="fbtn active" data-f="all">All</button>
+    <button class="fbtn pos" data-f="positive">🟢 Positive</button>
+    <button class="fbtn neg" data-f="negative">🔴 Negative</button>
+    <button class="fbtn neu" data-f="neutral">⚪ Neutral</button>
+    <button class="fbtn quote" data-f="quote">❝ Quotes</button>
+  </div>
+
+  <div class="tl-body" id="tl-body">
+    <div class="centre-line" id="centre-line"></div>
+    <div id="tl-rows"></div>
+  </div>
+</main>
+
+<!-- Popup: News Summary -->
+<div class="popup" id="popup-summary">
+  <button class="popup-close" id="close-summary">×</button>
+  <div class="popup-type">News Summary</div>
+  <div class="popup-date" id="ps-date"></div>
+  <div class="popup-headline" id="ps-headline"></div>
+  <div class="popup-text" id="ps-summary"></div>
+  <div class="popup-footer">
+    <span class="popup-badge" id="ps-badge"></span>
+    <span class="popup-source" id="ps-source"></span>
+  </div>
+</div>
+
+<!-- Popup: Sentiment Analysis -->
+<div class="popup" id="popup-sentiment">
+  <button class="popup-close" id="close-sentiment">×</button>
+  <div class="popup-type">Sentiment Analysis</div>
+  <div class="popup-date" id="psen-date"></div>
+  <div class="popup-headline" id="psen-headline"></div>
+  <div class="popup-text" id="psen-reason"></div>
+  <div class="score-bar-wrap">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:0.57rem;color:#bbb">−10</span>
+    <div class="score-bar-track"><div class="score-bar-thumb" id="psen-thumb"></div></div>
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:0.57rem;color:#bbb">+10</span>
+    <span class="score-label" id="psen-score"></span>
+  </div>
+</div>
+
+<!-- Popup: Quote -->
+<div class="popup quote-popup" id="popup-quote">
+  <button class="popup-close" id="close-quote">×</button>
+  <div class="popup-type gold">Trump Quote</div>
+  <div class="popup-date" id="pq-date"></div>
+  <div class="popup-quote-text" id="pq-quote"></div>
+  <div class="popup-text" id="pq-context"></div>
+  <div class="popup-source-row">
+    <span class="popup-badge" id="pq-badge"></span>
+    <span class="popup-source" id="pq-source"></span>
+  </div>
+</div>
+
+<footer>Trump Timeline — Powered by Claude AI — Updates every Monday</footer>
+
+<script>
+  let NEWS = [];
+  let activeFilter = 'all';
+
+  async function init() {
+    try {
+      const res = await fetch('data/news.json?t=' + Date.now());
+      NEWS = await res.json();
+    } catch(e) { NEWS = []; }
+    NEWS.sort((a,b) => new Date(a.date) - new Date(b.date));
+    render();
+  }
+
+  const SENT_CLASS = { positive:'pos', negative:'neg', neutral:'neu' };
+
+  const ERA_RANGES = [
+    { from:'2017-01-01', to:'2021-01-20', shade: true },
+    { from:'2021-01-20', to:'2025-01-20', shade: false },
+    { from:'2025-01-20', to:'2099-01-01', shade: true }
+  ];
+
+  function isShaded(dateStr) {
+    const d = new Date(dateStr);
+    for (const era of ERA_RANGES) {
+      if (d >= new Date(era.from) && d < new Date(era.to)) return era.shade;
+    }
+    return false;
+  }
+
+  function render() {
+    let filtered;
+    if (activeFilter === 'quote') {
+      filtered = NEWS.filter(n => n.type === 'quote');
+    } else if (activeFilter === 'all') {
+      filtered = NEWS;
+    } else {
+      // For sentiment filters, show news items + any quotes with that sentiment
+      filtered = NEWS.filter(n => n.sentiment === activeFilter);
+    }
+
+    const sorted = [...filtered].sort((a,b) => new Date(a.date) - new Date(b.date));
+    const container = document.getElementById('tl-rows');
+    container.innerHTML = '';
+
+    let lastYear = null;
+
+    sorted.forEach((item) => {
+      const yr = new Date(item.date + 'T12:00:00Z').getUTCFullYear();
+      const isQuote = item.type === 'quote';
+
+      if (yr !== lastYear) {
+        if (lastYear !== null) {
+          const div = document.createElement('div');
+          div.className = 'tl-year-divider';
+          div.innerHTML = `<div class="yr-line"></div><div class="yr-pill">${yr}</div><div class="yr-line"></div>`;
+          container.appendChild(div);
+        }
+        lastYear = yr;
+      }
+
+      const row = document.createElement('div');
+      const shadeClass = isShaded(item.date) ? ' era-band' : '';
+      row.className = 'tl-row' + (isQuote ? ' is-quote' : '') + shadeClass;
+
+      const dateStr = fmtShort(item.date);
+
+      if (isQuote) {
+        // Quotes always span the full width, centred on the timeline
+        // Quote text goes on BOTH sides (left side mirrors right for visual balance)
+        // Marker (gold diamond) sits on the centre line
+        row.innerHTML = `
+          <div class="col-left">
+            <span class="quote-text" style="text-align:right" title="${escHtml(item.headline)}">${escHtml(item.headline)}</span>
+          </div>
+          <div class="col-centre">
+            <div class="quote-marker" title="Click for context"></div>
+          </div>
+          <div class="col-right">
+            <span class="date-tag">${dateStr}</span>
+            <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--gold);opacity:0.7;white-space:nowrap">${escHtml(item.source || '')}</span>
+          </div>`;
+
+        const marker    = row.querySelector('.quote-marker');
+        const quoteText = row.querySelector('.quote-text');
+
+        marker.addEventListener('click', (e) => { e.stopPropagation(); showQuote(item, marker); });
+        quoteText.addEventListener('click', (e) => { e.stopPropagation(); showQuote(item, quoteText); });
+
+      } else {
+        // News items
+        const sc     = SENT_CLASS[item.sentiment] || 'neu';
+        const isLeft = item.sentiment === 'positive';
+
+        if (isLeft) {
+          row.innerHTML = `
+            <div class="col-left">
+              <span class="headline" title="${escHtml(item.headline)}">${escHtml(item.headline)}</span>
+              <span class="date-tag">${dateStr}</span>
+            </div>
+            <div class="col-centre"><div class="dot ${sc}" title="Click for sentiment analysis"></div></div>
+            <div class="col-right"></div>`;
+        } else {
+          row.innerHTML = `
+            <div class="col-left"></div>
+            <div class="col-centre"><div class="dot ${sc}" title="Click for sentiment analysis"></div></div>
+            <div class="col-right">
+              <span class="date-tag">${dateStr}</span>
+              <span class="headline" title="${escHtml(item.headline)}">${escHtml(item.headline)}</span>
+            </div>`;
+        }
+
+        const dot      = row.querySelector('.dot');
+        const headline = row.querySelector('.headline');
+
+        dot.addEventListener('click', (e) => { e.stopPropagation(); showSentiment(item, dot); });
+        headline.addEventListener('click', (e) => { e.stopPropagation(); showSummary(item, headline); });
+      }
+
+      container.appendChild(row);
+    });
+  }
+
+  // ── Popup: News Summary ──────────────────────────
+  function showSummary(item, el) {
+    closeAll();
+    document.getElementById('ps-date').textContent     = fmtFull(item.date);
+    document.getElementById('ps-headline').textContent = item.headline;
+    document.getElementById('ps-summary').textContent  = item.summary;
+    const badge = document.getElementById('ps-badge');
+    badge.textContent = cap(item.sentiment);
+    badge.className   = 'popup-badge ' + item.sentiment;
+    document.getElementById('ps-source').textContent   = item.source || '';
+    positionNear('popup-summary', el);
+  }
+
+  // ── Popup: Sentiment ─────────────────────────────
+  function showSentiment(item, el) {
+    closeAll();
+    document.getElementById('psen-date').textContent     = fmtFull(item.date);
+    document.getElementById('psen-headline').textContent = item.headline;
+    document.getElementById('psen-reason').textContent   = item.sentimentReason || 'No analysis available.';
+    const pct  = ((item.sentimentScore + 10) / 20 * 100).toFixed(0);
+    document.getElementById('psen-thumb').style.left     = pct + '%';
+    const sign = item.sentimentScore > 0 ? '+' : '';
+    document.getElementById('psen-score').textContent    = sign + item.sentimentScore;
+    positionNear('popup-sentiment', el);
+  }
+
+  // ── Popup: Quote ─────────────────────────────────
+  function showQuote(item, el) {
+    closeAll();
+    document.getElementById('pq-date').textContent    = fmtFull(item.date) + ' · ' + (item.source || '');
+    document.getElementById('pq-quote').textContent   = item.headline;
+    document.getElementById('pq-context').textContent = item.summary;
+    const badge = document.getElementById('pq-badge');
+    badge.textContent = cap(item.sentiment) + ' reaction';
+    badge.className   = 'popup-badge ' + item.sentiment;
+    document.getElementById('pq-source').textContent  = item.sentimentReason || '';
+    positionNear('popup-quote', el);
+  }
+
+  function positionNear(popupId, triggerEl) {
+    const popup = document.getElementById(popupId);
+    const rect  = triggerEl.getBoundingClientRect();
+    const pW = 300; const pH = 240;
+
+    let left = rect.right + window.scrollX + 12;
+    let top  = rect.top   + window.scrollY - 20;
+
+    if (left + pW > window.innerWidth - 8) left = rect.left + window.scrollX - pW - 12;
+    if (top + pH > window.scrollY + window.innerHeight - 8) top = window.scrollY + window.innerHeight - pH - 8;
+    if (top < window.scrollY + 8) top = window.scrollY + 8;
+
+    popup.style.left = Math.max(8, left) + 'px';
+    popup.style.top  = top + 'px';
+    popup.classList.add('visible');
+  }
+
+  function closeAll() {
+    ['popup-summary','popup-sentiment','popup-quote'].forEach(id =>
+      document.getElementById(id).classList.remove('visible'));
+  }
+
+  ['close-summary','close-sentiment','close-quote'].forEach(id =>
+    document.getElementById(id).addEventListener('click', closeAll));
+
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.popup') && !e.target.closest('.tl-row')) closeAll();
+  });
+
+  document.querySelectorAll('.fbtn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.fbtn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      activeFilter = btn.dataset.f;
+      closeAll();
+      render();
+    });
+  });
+
+  function fmtShort(d) {
+    return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { month:'short', day:'numeric', timeZone:'UTC' });
+  }
+  function fmtFull(d) {
+    return new Date(d + 'T12:00:00Z').toLocaleDateString('en-US', { month:'long', day:'numeric', year:'numeric', timeZone:'UTC' });
+  }
+  function cap(s) { return s ? s.charAt(0).toUpperCase() + s.slice(1) : ''; }
+  function escHtml(s) { return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+
+  init();
+</script>
+</body>
+</html>
