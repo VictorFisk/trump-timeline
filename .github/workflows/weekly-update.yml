@@ -1,35 +1,43 @@
 name: Weekly Trump News Update
-
+ 
 on:
   schedule:
     # Runs every Monday at 08:00 UTC
     - cron: '0 8 * * 1'
   workflow_dispatch: # Allows manual triggering from GitHub UI
-
+ 
 jobs:
   update-news:
     runs-on: ubuntu-latest
-
+ 
     permissions:
       contents: write
-
+ 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-
+ 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
-
+          node-version: '22'
+ 
       - name: Install dependencies
         run: npm install @anthropic-ai/sdk
-
+ 
+      - name: Check API key is set
+        run: |
+          if [ -z "${{ secrets.ANTHROPIC_API_KEY }}" ]; then
+            echo "ERROR: ANTHROPIC_API_KEY secret is not set!"
+            exit 1
+          fi
+          echo "API key is configured ✓"
+ 
       - name: Fetch and analyze news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/fetch-news.js
-
+ 
       - name: Commit updated news data
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -37,3 +45,4 @@ jobs:
           git add data/news.json
           git diff --staged --quiet || git commit -m "Weekly news update: $(date +'%Y-%m-%d')"
           git push
+ 
