@@ -1,5 +1,82 @@
 [
   {
+    "id": "trump-2026-03-16-endorsement",
+    "date": "2026-03-16",
+    "headline": "Trump-Backed Candidate Wins Special Election in Pennsylvania",
+    "source": "Fox News",
+    "summary": "The Republican candidate endorsed by Donald Trump won a closely watched special congressional election in Pennsylvania by a narrow margin. The victory was seen as evidence of Trump's continued influence within the Republican Party.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Coverage portrayed the outcome as validation of Trump's political influence and endorsement power within the GOP. The framing emphasized his kingmaker role and the success of his political strategy in competitive races.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-14-investigation",
+    "date": "2026-03-14",
+    "headline": "House Committee Launches Investigation into Trump Organization Contracts",
+    "source": "BBC",
+    "summary": "A House oversight committee announced a new investigation into federal contracts awarded to Trump Organization properties during his administration. The bipartisan inquiry will examine potential conflicts of interest and ethics violations.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage emphasized renewed legal and ethical scrutiny, with focus on accountability concerns and potential wrongdoing. The framing highlighted bipartisan support for the investigation and questions about presidential conduct.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-12-book",
+    "date": "2026-03-12",
+    "headline": "New Trump Memoir Tops Bestseller Lists in First Week",
+    "source": "New York Times",
+    "summary": "Donald Trump's latest memoir debuted at number one on major bestseller lists, selling over 500,000 copies in its first week. The book offers Trump's perspective on his presidency and political career, generating significant media attention and controversy.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage focused on the commercial success and strong sales figures as evidence of Trump's continued cultural relevance. While some reviews were critical of content, the primary framing emphasized the business achievement.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-10-nato",
+    "date": "2026-03-10",
+    "headline": "Trump Criticizes NATO Spending at Conservative Conference",
+    "source": "Washington Post",
+    "summary": "Speaking at a conservative policy conference, Trump renewed his criticism of NATO allies for insufficient defense spending and suggested the U.S. should reconsider its commitments. His remarks drew swift rebukes from European leaders and some Republican senators.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage highlighted diplomatic concerns and bipartisan criticism of Trump's NATO stance. The framing emphasized the potential damage to transatlantic relations and national security implications rather than domestic political support.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-07-court",
+    "date": "2026-03-07",
+    "headline": "Federal Appeals Court Dismisses Trump Case on Procedural Grounds",
+    "source": "Associated Press",
+    "summary": "A federal appeals court dismissed one of the remaining cases against Donald Trump, ruling that prosecutors had missed a critical filing deadline. The decision was based on procedural grounds rather than the merits of the case itself.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage presented this as a significant legal victory for Trump, with his legal team celebrating the dismissal. The framing emphasized the relief from legal jeopardy, though some outlets noted the procedural nature of the win.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-04-rally",
+    "date": "2026-03-04",
+    "headline": "Trump Holds Rally in Pennsylvania Ahead of Special Election",
+    "source": "CNN",
+    "summary": "Former President Trump held a campaign-style rally in Pennsylvania to support the Republican candidate in an upcoming special congressional election. The event drew thousands of supporters and featured Trump's standard criticisms of his successor's policies.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage was straightforward reporting of the political event with balanced quotes from supporters and critics. The framing was procedural, focusing on the electoral stakes rather than controversial statements.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-01-tariff",
+    "date": "2026-03-01",
+    "headline": "Trump Announces New 25% Tariffs on Steel and Aluminum Imports",
+    "source": "Reuters",
+    "summary": "President Trump signed an executive order imposing 25% tariffs on steel and aluminum imports from multiple countries, citing national security concerns. The move drew immediate criticism from trading partners and concerns from domestic manufacturers about rising costs.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized economic concerns, potential trade war escalation, and criticism from both international allies and business groups. The framing focused on market uncertainty and diplomatic tensions rather than any economic benefits.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-02-28-nato-summit",
     "date": "2026-02-28",
     "headline": "Trump Threatens NATO Withdrawal Over Defense Spending Shortfalls",
