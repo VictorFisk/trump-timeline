@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-03-23-001",
+    "date": "2026-03-23",
+    "headline": "Special Counsel Subpoenas Additional Trump Associates in Documents Investigation",
+    "source": "BBC",
+    "summary": "Federal prosecutors issued subpoenas to at least six additional Trump associates as part of the ongoing classified documents investigation. The subpoenas reportedly seek communications and testimony about document handling procedures at Trump properties between 2021 and 2024.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The investigation expansion was presented as a concerning development for Trump's legal situation. Coverage noted the broadening scope and intensity of the probe, framing it as continued legal jeopardy though maintaining factual tone about the investigative process.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-22-001",
+    "date": "2026-03-22",
+    "headline": "Trump Brokers Meeting Between Republican Congressional Factions",
+    "source": "AP",
+    "summary": "Donald Trump hosted a private meeting at Mar-a-Lago between moderate and conservative House Republicans to negotiate compromise on pending budget legislation. Sources indicated progress was made on several sticking points, with Trump playing a mediating role.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage portrayed Trump as an influential party leader capable of bridging internal divisions. The successful mediation role and continued political relevance were emphasized, though some outlets noted ongoing questions about his formal party position.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-21-001",
+    "date": "2026-03-21",
+    "headline": "Trump Faces Contempt Citation for Violating Gag Order in New York Case",
+    "source": "New York Times",
+    "summary": "Judge Arthur Engoron issued a contempt citation against Trump for repeatedly violating gag order provisions by commenting on court staff via social media. The citation includes a $50,000 fine and a stern warning about potential incarceration for continued violations.",
+    "sentiment": "negative",
+    "sentimentScore": -8,
+    "sentimentReason": "The contempt finding was framed as serious judicial rebuke and escalation of tensions between Trump and the court system. Coverage emphasized the judge's frustration and unprecedented nature of threats against a former president, portraying it as a significant legal setback.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-20-001",
+    "date": "2026-03-20",
+    "headline": "Poll Shows Trump Leading in Key Swing States Ahead of 2028",
+    "source": "CNN",
+    "summary": "A new CNN poll indicates Trump holds a 5-7 point lead over potential Democratic challengers in Arizona, Georgia, and Wisconsin. The survey of 3,500 registered voters shows sustained support among his base despite ongoing legal challenges.",
+    "sentiment": "neutral",
+    "sentimentScore": 3,
+    "sentimentReason": "Coverage presented polling data objectively with context about margin of error and election timeline. While favorable for Trump, the framing included balanced analysis of demographic breakdowns and volatility warnings, maintaining journalistic neutrality.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-19-001",
+    "date": "2026-03-19",
+    "headline": "Trump Organization Reports Record Quarterly Revenue from Golf Properties",
+    "source": "Fox News",
+    "summary": "The Trump Organization released financial data showing a 34% increase in revenue from its golf course properties compared to the previous year. Company executives attributed the growth to expanded international membership and hosting major tournaments.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Business success was highlighted positively, emphasizing Trump's continued brand strength and business acumen. The story was framed around legitimate business growth and successful property management despite political controversies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-17-001",
+    "date": "2026-03-17",
+    "headline": "Federal Appeals Court Rejects Trump Immunity Claim in Civil Case",
+    "source": "Washington Post",
+    "summary": "A three-judge panel of the D.C. Circuit Court of Appeals unanimously rejected Trump's claim of absolute immunity in a civil lawsuit related to January 6th events. The ruling allows the case to proceed to discovery phase, with Trump's legal team indicating plans to appeal.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The legal setback was framed as a significant defeat for Trump's defense strategy. Coverage highlighted the unanimous nature of the decision and potential implications for other pending cases, presenting challenges to his legal position.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-03-16-endorsement",
     "date": "2026-03-16",
     "headline": "Trump-Backed Candidate Wins Special Election in Pennsylvania",
