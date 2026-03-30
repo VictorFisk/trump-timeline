@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-03-30-01",
+    "date": "2026-03-30",
+    "headline": "Trump Endorses Slate of Congressional Candidates Ahead of Primaries",
+    "source": "BBC",
+    "summary": "Donald Trump announced endorsements for 12 congressional candidates in key primary races across six states. The endorsements included several challengers to incumbent Republicans who voted for impeachment.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage presented the endorsements as a standard political development, noting Trump's continued influence in Republican primaries. While acknowledging the potentially divisive nature of challenging incumbents, reporting maintained balanced tone on his party involvement.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-29-01",
+    "date": "2026-03-29",
+    "headline": "Trump Organization Faces New Regulatory Investigation in New York",
+    "source": "New York Times",
+    "summary": "New York state regulators opened an investigation into potential zoning violations at several Trump properties. The probe focuses on whether commercial spaces were improperly classified for tax purposes.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized the expanding scope of investigations into Trump's business empire. The story was framed as another example of potential impropriety and legal jeopardy facing the former president's companies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-28-01",
+    "date": "2026-03-28",
+    "headline": "Poll Shows Trump Leading Republican Field by 25 Points",
+    "source": "Washington Post",
+    "summary": "A new national poll indicates Trump maintains a commanding lead among potential 2028 Republican presidential candidates. The survey showed 58% support among Republican primary voters.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "The poll results demonstrated Trump's continued dominance within the Republican Party. Coverage presented this as evidence of his enduring political strength and ability to maintain support despite controversies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-27-01",
+    "date": "2026-03-27",
+    "headline": "Trump Criticizes Current Administration's Foreign Policy at Mar-a-Lago Event",
+    "source": "CNN",
+    "summary": "Speaking to Republican donors, Trump sharply criticized the administration's handling of international relations, particularly regarding China and NATO. He suggested his approach would have prevented current diplomatic tensions.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Coverage framed Trump's comments as divisive political attacks rather than constructive criticism. The reporting emphasized the confrontational tone and questioned the accuracy of his claims about his own foreign policy record.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-26-01",
+    "date": "2026-03-26",
+    "headline": "Trump Media Venture Reports Strong Quarterly Growth",
+    "source": "Fox News",
+    "summary": "Truth Social's parent company announced a 40% increase in active users and expanded advertising partnerships. The platform reported its first profitable quarter since launch.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage emphasized Trump's business success and the platform's growing influence in conservative media. The profitability milestone was framed as validation of Trump's media strategy and continued relevance in the digital space.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-24-01",
+    "date": "2026-03-24",
+    "headline": "Federal Appeals Court Hears Arguments in Trump Financial Records Case",
+    "source": "Associated Press",
+    "summary": "A three-judge panel heard oral arguments regarding the release of Trump's business records to New York state investigators. Trump's legal team argued the subpoenas were overly broad and politically motivated.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "The continued legal challenges were portrayed as ongoing complications for Trump. Coverage highlighted the potential legal exposure and characterized the proceedings as part of persistent scrutiny of his business practices.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-03-23-001",
     "date": "2026-03-23",
     "headline": "Special Counsel Subpoenas Additional Trump Associates in Documents Investigation",
