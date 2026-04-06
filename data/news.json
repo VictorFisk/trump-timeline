@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-04-06-007",
+    "date": "2026-04-06",
+    "headline": "Trump Faces Criticism After Comments on Federal Reserve Independence",
+    "source": "New York Times",
+    "summary": "Donald Trump drew bipartisan criticism after suggesting he would seek to exert direct control over Federal Reserve policy decisions if elected. Economists and former officials from both parties expressed concern about potential threats to central bank independence.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized bipartisan criticism and expert concerns about Trump's statements. The framing focused on potential institutional risks and departures from traditional norms of Fed independence.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-05-006",
+    "date": "2026-04-05",
+    "headline": "New Poll Shows Trump Leading Republican Primary Field by 28 Points",
+    "source": "Fox News",
+    "summary": "A national survey conducted by a major polling organization shows Donald Trump maintaining a commanding lead among potential Republican primary voters for the 2028 nomination. The poll indicated 56% support for Trump compared to 28% for his nearest competitor.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Coverage highlighted Trump's dominant position in the Republican field with substantial numerical advantages. The framing emphasized his continued political strength and support among the party base.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-03-005",
+    "date": "2026-04-03",
+    "headline": "Trump Meets with Foreign Policy Advisors Amid International Tensions",
+    "source": "Washington Post",
+    "summary": "Donald Trump held a closed-door meeting with former national security officials and foreign policy experts at his Bedminster property. Sources indicated discussions centered on escalating tensions in Eastern Europe and Middle East policy positions.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage presented the meeting as standard political activity for a major political figure. The reporting was straightforward with minimal editorial framing beyond factual description of the gathering.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-02-004",
+    "date": "2026-04-02",
+    "headline": "Trump Endorses Controversial Candidate in Pennsylvania Senate Primary",
+    "source": "CNN",
+    "summary": "Donald Trump announced his endorsement of a Pennsylvania Senate candidate facing scrutiny over past controversial statements. The endorsement immediately sparked debate within the Republican Party about the candidate's electability in the general election.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Coverage emphasized the controversial nature of the endorsement and internal party divisions. The framing focused on potential political risks and party tensions rather than strategic benefits.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-01-003",
+    "date": "2026-04-01",
+    "headline": "Trump Organization Reports Record Q1 Revenue from Golf Properties",
+    "source": "Wall Street Journal",
+    "summary": "The Trump Organization disclosed first-quarter earnings showing a 23% increase in revenue from its golf course holdings. Industry analysts attributed the growth to increased membership fees and strong tournament bookings at Trump-branded properties.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage focused on business success and financial growth of Trump's enterprises. The financial achievements were presented factually with positive market performance indicators.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-03-31-002",
+    "date": "2026-03-31",
+    "headline": "Federal Appeals Court Denies Trump Motion to Dismiss Civil Fraud Case",
+    "source": "Associated Press",
+    "summary": "A three-judge panel of the Second Circuit Court of Appeals unanimously rejected Donald Trump's motion to dismiss the New York civil fraud case. The ruling allows the case to proceed to trial, with proceedings expected to begin in late spring.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage highlighted a legal setback for Trump with the court's unanimous decision. The ruling was presented as a significant defeat in his ongoing legal battles.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-03-30-01",
     "date": "2026-03-30",
     "headline": "Trump Endorses Slate of Congressional Candidates Ahead of Primaries",
