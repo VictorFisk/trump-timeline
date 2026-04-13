@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-04-13-social-media",
+    "date": "2026-04-13",
+    "headline": "Trump's Truth Social Platform Reports 40% User Growth in Six Months",
+    "source": "BBC",
+    "summary": "Truth Social announced that its active user base grew by 40% over the past six months, reaching 12 million monthly active users. The platform's parent company attributed growth to increased political engagement ahead of the 2026 midterms. Tech analysts noted the platform remains significantly smaller than mainstream social media competitors.",
+    "sentiment": "positive",
+    "sentimentScore": 4,
+    "sentimentReason": "The growth figures were presented as a business success story for Trump's media venture, though coverage included context about the platform's still-limited reach. The expansion was framed positively as demonstrating viability but with caveats about scale compared to established platforms.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-12-foreign-policy-speech",
+    "date": "2026-04-12",
+    "headline": "Trump Outlines 'America First 2.0' Foreign Policy Vision",
+    "source": "Fox News",
+    "summary": "In a major foreign policy address in Florida, Donald Trump detailed his approach to international relations if elected, emphasizing reduced military involvement abroad and renegotiated alliances. He proposed cuts to foreign aid and suggested reassessing NATO commitments. The speech received mixed reactions from foreign policy experts.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage varied by outlet, with conservative media emphasizing the speech's coherent vision while other outlets highlighted expert skepticism. The mixed expert reaction and balance between Trump's policy proposals and criticism resulted in relatively neutral overall framing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-11-endorsement-controversy",
+    "date": "2026-04-11",
+    "headline": "Trump's Endorsement of Controversial Senate Candidate Draws GOP Criticism",
+    "source": "New York Times",
+    "summary": "Donald Trump endorsed a Senate primary candidate in Pennsylvania despite warnings from Republican Party leaders about the candidate's past inflammatory statements. Several GOP senators publicly expressed concern that the endorsement could jeopardize the party's chances in the general election. Trump defended his choice on Truth Social, calling critics 'RINOs and losers.'",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage focused on intra-party conflict and concerns about electoral viability, framing Trump's decision as potentially damaging to Republican Senate prospects. Mainstream media highlighted establishment GOP criticism and questions about Trump's candidate selection judgment.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-10-campaign-finance",
+    "date": "2026-04-10",
+    "headline": "Trump Campaign Reports Record Q1 Fundraising of $87 Million",
+    "source": "Washington Post",
+    "summary": "Donald Trump's campaign announced first quarter fundraising totals of $87 million, surpassing all Republican rivals combined. The campaign reported contributions from over 1.2 million individual donors with an average donation of $38. Federal Election Commission filings confirm the figures.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Media coverage emphasized the impressive fundraising haul and broad donor base as indicators of campaign strength and enthusiasm. The reporting was largely factual but positioned Trump as the clear frontrunner in terms of both financial resources and grassroots support.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-09-poll-numbers",
+    "date": "2026-04-09",
+    "headline": "New Poll Shows Trump Leading Republican Primary Field by 30 Points",
+    "source": "CNN",
+    "summary": "A CNN/SSRS poll released Tuesday shows Donald Trump maintaining a commanding lead over potential Republican primary challengers with 58% support among likely GOP voters. His nearest competitor polled at 28%. The survey of 1,200 registered Republicans was conducted between April 3-7.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The coverage highlighted Trump's continued dominance within the Republican Party and strong support among the base. While presented factually, the significant polling lead was framed as demonstrating his resilient political standing despite various controversies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-08-legal-victory",
+    "date": "2026-04-08",
+    "headline": "Appeals Court Dismisses Civil Suit Against Trump",
+    "source": "Associated Press",
+    "summary": "A federal appeals court dismissed a civil lawsuit against Donald Trump related to business dealings from 2019. The three-judge panel ruled that the plaintiffs failed to demonstrate sufficient standing to bring the case. Trump's legal team celebrated the decision as a complete vindication.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage presented this as a significant legal win for Trump, with his attorneys' statements prominently featured. The ruling was framed as removing one of several legal challenges facing the former president, though some outlets noted remaining cases.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-04-06-007",
     "date": "2026-04-06",
     "headline": "Trump Faces Criticism After Comments on Federal Reserve Independence",
