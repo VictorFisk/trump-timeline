@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-04-20-001",
+    "date": "2026-04-20",
+    "headline": "Trump-Backed Candidates Win Three Special Elections",
+    "source": "BBC",
+    "summary": "Republican candidates endorsed by Donald Trump secured victories in special congressional elections in Texas, Florida, and Arizona. Political analysts noted Trump's continued influence on Republican primary voters and his effective campaign fundraising apparatus.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted Trump's political kingmaker status and demonstrated electoral influence within the Republican Party. Media emphasized the clean sweep and implications for future races.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-19-001",
+    "date": "2026-04-19",
+    "headline": "Former Trump Aide Publishes Tell-All Memoir with Critical Revelations",
+    "source": "CNN",
+    "summary": "A former senior White House official released a memoir detailing internal conflicts during Trump's administration, including previously unreported disagreements over foreign policy decisions. Trump dismissed the book as \"fiction\" and questioned the author's credibility.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Media coverage emphasized unflattering anecdotes and behind-the-scenes chaos described in the book. Reporting focused on controversial claims while noting Trump's denials and counterattacks.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-18-001",
+    "date": "2026-04-18",
+    "headline": "Trump Mediates Meeting Between Tech CEOs and Conservative Leaders",
+    "source": "Washington Post",
+    "summary": "Donald Trump hosted a closed-door summit at Mar-a-Lago bringing together Silicon Valley executives and prominent conservatives to discuss content moderation policies. Participants described the meeting as productive, with both sides agreeing to continue dialogue on free speech issues.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented Trump as a convener bridging competing interests without clear policy outcomes. Media noted the unusual coalition while maintaining balanced reporting on participants' divergent objectives.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-17-001",
+    "date": "2026-04-17",
+    "headline": "Trump Organization Faces New York State Tax Audit",
+    "source": "New York Times",
+    "summary": "New York State tax authorities initiated a comprehensive audit of Trump Organization business entities focusing on property valuations and deductions claimed between 2020-2024. State officials characterized the audit as routine, though legal experts noted its timing amid other investigations.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Media coverage framed the audit as another legal challenge for Trump's business empire. Reporting connected it to broader patterns of regulatory scrutiny, though the routine nature was acknowledged.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-16-001",
+    "date": "2026-04-16",
+    "headline": "Trump Leads Republican Rivals by 25 Points in New National Poll",
+    "source": "Fox News",
+    "summary": "A Fox News poll shows Donald Trump maintaining a commanding lead over potential 2028 Republican presidential candidates with 58% support among likely primary voters. The survey indicates strong backing from the party's conservative base despite ongoing legal challenges.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Coverage highlighted Trump's political dominance within the Republican Party and electoral strength. Media emphasized his sustained popularity among conservative voters and viability as a future candidate.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-15-001",
+    "date": "2026-04-15",
+    "headline": "Federal Appeals Court Rejects Trump's Immunity Claims in Civil Case",
+    "source": "Associated Press",
+    "summary": "A three-judge panel unanimously ruled against Donald Trump's assertion of presidential immunity in a civil lawsuit related to January 6th events. The decision allows the case to proceed to trial, with Trump's legal team indicating plans to appeal to the Supreme Court.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "News framing focused on legal setbacks and potential liability exposure for Trump. Coverage emphasized the unanimous nature of the ruling and its implications for ongoing litigation.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-04-13-social-media",
     "date": "2026-04-13",
     "headline": "Trump's Truth Social Platform Reports 40% User Growth in Six Months",
