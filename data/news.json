@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-04-26-007",
+    "date": "2026-04-26",
+    "headline": "Trump Campaign Fundraising Totals Reach $89 Million for Second Quarter",
+    "source": "Fox News",
+    "summary": "Donald Trump's political action committee and campaign apparatus reported raising $89 million in the second quarter of 2026, outpacing other potential Republican presidential candidates. The fundraising haul demonstrates continued donor enthusiasm and organizational strength ahead of 2028.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Media coverage emphasized the impressive fundraising figures as evidence of Trump's political strength and viability. The story was framed as demonstrating his frontrunner status and ability to mobilize financial support from the Republican base.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-25-006",
+    "date": "2026-04-25",
+    "headline": "Justice Department Closes Investigation into Trump's Post-Presidential Records Handling",
+    "source": "Washington Post",
+    "summary": "The Department of Justice announced it has concluded its investigation into Donald Trump's handling of classified documents after leaving office, citing insufficient evidence to pursue additional charges. The decision closes a probe that had been ongoing since 2024.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted the resolution of a major legal threat to Trump, with the DOJ's decision removing potential criminal exposure. Media framed it as a significant legal victory for the former president, though some outlets noted ongoing civil litigation.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-24-005",
+    "date": "2026-04-24",
+    "headline": "Trump Meets with European Conservative Leaders in Florida Summit",
+    "source": "BBC",
+    "summary": "Donald Trump hosted a two-day summit at Mar-a-Lago with right-leaning political figures from France, Italy, and Hungary. Discussions focused on immigration policy, national sovereignty, and challenges to traditional conservative movements in Western democracies.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "International media covered the event as a significant gathering of nationalist-conservative leaders. Framing was largely descriptive, noting Trump's continued international profile while presenting various perspectives on the ideological alignment.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-23-004",
+    "date": "2026-04-23",
+    "headline": "Trump Social Media Platform Reports User Growth Decline in Q1 Earnings",
+    "source": "Wall Street Journal",
+    "summary": "Truth Social's parent company reported a 12% decline in active users during the first quarter of 2026, alongside reduced advertising revenue. The company's stock price dropped 8% in after-hours trading following the earnings announcement.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Financial media emphasized declining business performance and user engagement metrics. Coverage framed the results as a setback for Trump's business ventures and raised questions about the platform's long-term viability.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-22-003",
+    "date": "2026-04-22",
+    "headline": "Trump Endorses Five Congressional Candidates Ahead of Midterm Primaries",
+    "source": "CNN",
+    "summary": "Donald Trump issued endorsements for five Republican congressional candidates in competitive primary races across Arizona, Georgia, and Pennsylvania. The endorsements signal Trump's continued influence over Republican candidate selection heading into the 2026 midterm elections.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the endorsements as a routine political story about Trump's ongoing role in Republican politics. Media noted both his influence within the party and mixed results from previous endorsements.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-21-002",
+    "date": "2026-04-21",
+    "headline": "Federal Appeals Court Hears Arguments in Trump Organization Tax Case",
+    "source": "Associated Press",
+    "summary": "A three-judge panel in the Second Circuit Court of Appeals heard oral arguments regarding the Trump Organization's appeal of a 2024 tax fraud conviction. Attorneys for the Trump Organization argued that key evidence was improperly admitted during the original trial.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Media coverage focused on ongoing legal challenges and the serious nature of tax fraud allegations. The framing highlighted continued legal troubles for Trump's business empire, maintaining focus on potential criminal liability.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-04-20-001",
     "date": "2026-04-20",
     "headline": "Trump-Backed Candidates Win Three Special Elections",
