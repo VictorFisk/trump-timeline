@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-05-04-007",
+    "date": "2026-05-04",
+    "headline": "Poll Shows Trump Leading Republican Primary Field by 28 Points",
+    "source": "BBC",
+    "summary": "A new national poll from a major research firm shows Donald Trump with 52% support among likely Republican primary voters, significantly ahead of his nearest competitor. The survey of 1,500 registered Republicans was conducted between April 28 and May 2.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage emphasized Trump's dominant position in the Republican field and strong base support. News outlets highlighted the substantial margin over competitors and noted the consistency of his polling advantage, framing it as evidence of his continued political strength within the party.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-03-006",
+    "date": "2026-05-03",
+    "headline": "Ethics Watchdog Files Complaint Over Trump Campaign Finance Disclosures",
+    "source": "New York Times",
+    "summary": "Common Cause filed a formal complaint with the Federal Election Commission alleging irregularities in Trump's campaign finance reporting. The complaint specifically questions the classification of certain expenditures and donor disclosure practices from the previous quarter.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "News coverage highlighted the serious nature of campaign finance allegations and potential regulatory scrutiny. Media framing emphasized the watchdog organization's credibility and detailed the specific allegations, though Trump's team dismissed the complaint as politically motivated.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-02-005",
+    "date": "2026-05-02",
+    "headline": "Trump Holds Rally in Pennsylvania, Drawing Thousands of Supporters",
+    "source": "CNN",
+    "summary": "Donald Trump attracted an estimated 12,000 attendees to a rally in Erie, Pennsylvania, where he addressed trade policy, immigration, and criticized the current administration. The event marked his third visit to the battleground state in 2026.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage focused on crowd size and Trump's messaging without strong editorial framing. Outlets provided straightforward reporting on his remarks and audience reception, with balanced attention to both supporter enthusiasm and protest activity outside the venue.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-01-004",
+    "date": "2026-05-01",
+    "headline": "Trump Organization Reports Quarterly Revenue Decline Amid Brand Challenges",
+    "source": "Washington Post",
+    "summary": "The Trump Organization disclosed a 15% decrease in quarterly revenue compared to the previous year, citing reduced licensing deals and membership declines at golf properties. Company officials attributed the decline to broader economic headwinds affecting the luxury hospitality sector.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Media coverage emphasized the financial struggles and ongoing brand reputation challenges. While the company provided economic explanations, journalists highlighted the pattern of declining revenues and questions about the organization's long-term viability.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-30-003",
+    "date": "2026-04-30",
+    "headline": "Trump Endorses Six Congressional Candidates Ahead of Primary Season",
+    "source": "Fox News",
+    "summary": "Donald Trump announced endorsements for six Republican congressional candidates in key swing districts. The endorsements are seen as Trump asserting continued influence over the Republican Party ahead of the 2026 midterm elections.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the endorsements as a routine political development, with outlets noting Trump's ongoing role in Republican primaries. Some sources highlighted mixed success rates of previous Trump endorsements, maintaining a balanced perspective.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-04-28-002",
+    "date": "2026-04-28",
+    "headline": "Federal Court Dismisses Trump Appeal in New York Civil Case",
+    "source": "Associated Press",
+    "summary": "A federal appeals court rejected Donald Trump's latest motion to overturn a 2023 civil fraud judgment. The three-judge panel ruled unanimously that the lower court's findings were supported by substantial evidence.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The coverage focused on the legal setback and potential financial implications for Trump. News outlets emphasized the unanimous nature of the decision and quoted legal experts characterizing it as a significant defeat for Trump's legal team.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-04-26-007",
     "date": "2026-04-26",
     "headline": "Trump Campaign Fundraising Totals Reach $89 Million for Second Quarter",
