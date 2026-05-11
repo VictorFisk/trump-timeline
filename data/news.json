@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-05-11-001",
+    "date": "2026-05-11",
+    "headline": "Trump Endorses Slate of Congressional Candidates for 2026 Midterms",
+    "source": "BBC",
+    "summary": "Donald Trump announced endorsements for 47 Republican congressional candidates nationwide, focusing on primaries where incumbents voted for previous impeachment proceedings. The endorsements signal Trump's continued influence over Republican Party candidate selection heading into midterm elections.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the endorsements as a factual political development with mixed implications. Media framing acknowledged Trump's ongoing party influence while noting that previous Trump-endorsed candidates have had mixed electoral success, resulting in balanced reporting.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-10-001",
+    "date": "2026-05-10",
+    "headline": "Trump Social Media Platform Faces SEC Investigation Over Financial Disclosures",
+    "source": "New York Times",
+    "summary": "The Securities and Exchange Commission launched an investigation into Truth Social's parent company regarding alleged irregularities in quarterly financial reports. Trump denounced the probe as politically motivated, while the SEC declined to comment on the ongoing investigation.",
+    "sentiment": "negative",
+    "sentimentScore": -8,
+    "sentimentReason": "Coverage emphasized regulatory scrutiny and potential legal complications. Media framing focused on the seriousness of SEC investigations and questions about financial transparency, presenting the development as another legal challenge for Trump's business interests.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-09-001",
+    "date": "2026-05-09",
+    "headline": "New Poll Shows Trump Leading in Key Swing States Ahead of 2028",
+    "source": "Associated Press",
+    "summary": "A nationwide survey conducted by multiple polling organizations shows Trump with significant leads in Michigan, Pennsylvania, and Wisconsin among likely Republican primary voters. The poll indicates strong enthusiasm among his base despite ongoing legal challenges.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage presented favorable polling data showing electoral strength. Media framing highlighted Trump's continued political viability and strong support in critical battleground states, though some analysis noted the early timing and volatility of such polls.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-08-001",
+    "date": "2026-05-08",
+    "headline": "Trump Faces Criticism After Controversial Comments on NATO Funding",
+    "source": "CNN",
+    "summary": "Donald Trump sparked international controversy by suggesting the U.S. should reconsider NATO commitments for countries not meeting defense spending targets. European officials responded with sharp criticism, while some Republican lawmakers defended his position on burden-sharing.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized diplomatic tensions and criticism from international allies. Media framing focused on controversial nature of the remarks and negative reactions from European leaders, though some outlets acknowledged ongoing debate about NATO funding obligations.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-07-001",
+    "date": "2026-05-07",
+    "headline": "Trump Organization Reports Record Quarterly Earnings",
+    "source": "Fox News",
+    "summary": "The Trump Organization announced first-quarter 2026 revenues exceeded projections by 23%, driven by strong performance in hospitality and real estate sectors. Donald Trump Jr. attributed the success to expanding international properties and domestic golf resort bookings.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted business success and financial performance metrics. The framing emphasized strong earnings growth and business acumen, presenting Trump's corporate ventures in a favorable light with minimal critical analysis.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-06-001",
+    "date": "2026-05-06",
+    "headline": "Federal Appeals Court Rules Against Trump in Document Classification Case",
+    "source": "Washington Post",
+    "summary": "The U.S. Court of Appeals for the Eleventh Circuit rejected Trump's latest appeal regarding presidential records, upholding lower court decisions on document retention policies. Trump's legal team indicated plans to appeal to the Supreme Court.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage presented the ruling as a significant legal setback for Trump. Media framing emphasized the legal defeat and ongoing complications from document-related litigation, with analysis suggesting potential impacts on his political standing.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-05-04-007",
     "date": "2026-05-04",
     "headline": "Poll Shows Trump Leading Republican Primary Field by 28 Points",
