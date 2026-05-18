@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-05-18-jobs-report",
+    "date": "2026-05-18",
+    "headline": "Trump Touts Strong Jobs Report Showing 285,000 Positions Added",
+    "source": "Associated Press",
+    "summary": "The Labor Department reported 285,000 new jobs created in April, exceeding economist predictions. President Trump credited his economic policies and deregulation agenda for the growth. Unemployment remained steady at 3.9% with wage growth of 3.2%.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage emphasized strong economic performance and exceeded expectations. Media highlighted the administration's economic messaging and policy credit-claiming. The positive employment data was framed as validating administration approaches.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-17-legal-appeal",
+    "date": "2026-05-17",
+    "headline": "Appeals Court Hears Arguments in Trump Business Records Case",
+    "source": "New York Times",
+    "summary": "Federal appeals court judges heard oral arguments regarding subpoenas for Trump Organization financial documents from 2015-2020. Trump's legal team argued the requests were overly broad and politically motivated. A ruling is expected within 60 days.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Coverage focused on ongoing legal challenges and potential legal exposure. Media emphasized the continuation of legal battles despite his presidency. The proceedings were framed as a distraction from governance.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-16-middle-east-summit",
+    "date": "2026-05-16",
+    "headline": "Trump Hosts Historic Peace Summit with Israeli and Saudi Leaders",
+    "source": "Fox News",
+    "summary": "President Trump convened a trilateral meeting at the White House with the Israeli Prime Minister and Saudi Crown Prince. The leaders discussed regional security cooperation and potential normalization of diplomatic relations. A joint statement emphasized shared economic and security interests.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Media portrayed the summit as a major diplomatic achievement and continuation of Middle East peace efforts. Coverage emphasized Trump's role as mediator and the historic nature of the meeting. International cooperation and regional stability were highlighted positively.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-15-cabinet-resignation",
+    "date": "2026-05-15",
+    "headline": "Interior Secretary Resigns Amid Policy Disagreements with Trump",
+    "source": "CNN",
+    "summary": "Secretary of the Interior Douglas McKenna announced his resignation, citing fundamental disagreements over public lands policy. This marks the fourth cabinet-level departure in Trump's current term. The White House thanked McKenna for his service and announced a search for his replacement.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized administrative instability and internal policy conflicts. Reports highlighted this as part of a pattern of cabinet turnover. Media framed the resignation as evidence of management challenges within the administration.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-14-approval-rating",
+    "date": "2026-05-14",
+    "headline": "Trump Approval Rating Reaches 18-Month High in New Polling",
+    "source": "Washington Post",
+    "summary": "A new national poll showed President Trump's approval rating climbing to 48%, the highest since November 2024. Improved economic indicators and falling inflation were cited as key factors. The poll showed increased support among independent voters.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Media coverage focused on improving political standing and economic performance correlations. The polling data was presented as a significant political development for the administration. Analysis highlighted potential implications for upcoming legislative battles.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-13-trade-dispute",
+    "date": "2026-05-13",
+    "headline": "EU Files WTO Complaint Over New Trump Tariffs on Steel Imports",
+    "source": "BBC",
+    "summary": "The European Union formally challenged new American tariffs on steel and aluminum at the World Trade Organization. Trump defended the tariffs as necessary for national security and domestic manufacturing protection. Trade tensions escalated as the EU threatened retaliatory measures.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage framed the development as escalating trade tensions and potential economic conflict. Reports emphasized concerns from business groups and economists about supply chain disruptions. The confrontational nature of international relations was highlighted.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-05-11-001",
     "date": "2026-05-11",
     "headline": "Trump Endorses Slate of Congressional Candidates for 2026 Midterms",
