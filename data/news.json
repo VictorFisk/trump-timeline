@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-05-25-007",
+    "date": "2026-05-25",
+    "headline": "Trump Raises $45 Million at Florida Fundraising Event",
+    "source": "Washington Post",
+    "summary": "Donald Trump's campaign reported raising $45 million during a high-dollar fundraising dinner at his Mar-a-Lago estate in Palm Beach, Florida. The event attracted approximately 400 donors, including several prominent business executives and former Trump administration officials.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The fundraising success was portrayed as a demonstration of Trump's continued financial viability as a candidate and his ability to attract major donors. Coverage emphasized the impressive dollar amount and strong donor enthusiasm, signaling campaign strength heading into the election cycle.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-24-006",
+    "date": "2026-05-24",
+    "headline": "Judge Sets October Trial Date for Trump Civil Fraud Case in New York",
+    "source": "New York Times",
+    "summary": "New York State Supreme Court Justice Arthur Engoron scheduled an October 15, 2026 trial date for the civil fraud case against Donald Trump and his business organization. The case involves allegations of fraudulent property valuations dating back to 2014, with potential penalties exceeding $250 million.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage focused on the legal jeopardy facing Trump and his business empire, emphasizing the substantial financial penalties at stake. Media outlets framed the trial date as adding another significant legal challenge to Trump's already crowded court calendar.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-23-005",
+    "date": "2026-05-23",
+    "headline": "New Poll Shows Trump Leading Republican Primary Field by 15 Points",
+    "source": "CNN",
+    "summary": "A national survey conducted by the Pew Research Center indicates Donald Trump maintains 42% support among Republican primary voters, 15 points ahead of his nearest competitor. The poll suggests Trump's support has remained stable despite ongoing legal proceedings.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "The polling data was presented as evidence of Trump's dominant position in the Republican primary race. While coverage included context about his legal challenges, the overall framing emphasized his strong standing with the party base and electoral resilience.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-22-004",
+    "date": "2026-05-22",
+    "headline": "Trump Endorsement Leads to Primary Victory for Senate Candidate in Texas",
+    "source": "Fox News",
+    "summary": "Texas Republican Senate candidate Marcus Webb secured a decisive primary victory after receiving Donald Trump's endorsement three weeks prior. Webb won with 58% of the vote, defeating three other candidates in a race closely watched as a measure of Trump's continued influence in GOP politics.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The coverage highlighted Trump's continued political power within the Republican Party, framing his endorsement as decisive in the race's outcome. Media outlets portrayed the result as evidence of Trump's kingmaker status and his ability to shape GOP electoral contests.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-21-003",
+    "date": "2026-05-21",
+    "headline": "Trump Organization Announces Expansion of Golf Resort Portfolio in Middle East",
+    "source": "BBC",
+    "summary": "The Trump Organization revealed plans to develop three new luxury golf resorts in Saudi Arabia and the United Arab Emirates, marking the company's largest international expansion in five years. Donald Trump Jr. emphasized the projects would create thousands of jobs and strengthen business ties with Gulf nations.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the business announcement factually, with outlets noting both the economic scale of the deals and questions about potential conflicts of interest. The reporting balanced business achievement narratives with scrutiny of Trump family connections to foreign governments.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-19-002",
+    "date": "2026-05-19",
+    "headline": "Federal Appeals Court Denies Trump Motion in Classified Documents Case",
+    "source": "Associated Press",
+    "summary": "A three-judge panel of the 11th Circuit Court of Appeals unanimously rejected Donald Trump's motion to dismiss charges related to the handling of classified documents. The court ruled that Trump's arguments regarding presidential immunity did not apply to the circumstances of the case.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The ruling represents a significant legal setback for Trump, with coverage emphasizing the unanimous nature of the decision and its implications for his ongoing legal challenges. News outlets framed the decision as limiting Trump's defense options and advancing the prosecution's case.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-05-18-jobs-report",
     "date": "2026-05-18",
     "headline": "Trump Touts Strong Jobs Report Showing 285,000 Positions Added",
