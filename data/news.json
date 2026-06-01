@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-06-01-01",
+    "date": "2026-06-01",
+    "headline": "Poll Shows Trump Leading Potential 2028 Republican Primary Field by 30 Points",
+    "source": "Washington Post",
+    "summary": "A new national poll indicated Donald Trump commanding 52% support among Republican voters for the 2028 presidential nomination, far ahead of other potential candidates. His nearest competitor, Florida Governor Ron DeSantis, polled at 22%. The survey suggested Trump's dominance in the party remains intact despite various legal challenges.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Polling data was framed as evidence of Trump's strong political position and continued Republican base support. Coverage emphasized his commanding lead and electability within the party, with political analysts discussing his frontrunner status as nearly unassailable among GOP voters.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-31-01",
+    "date": "2026-05-31",
+    "headline": "Trump Rally in Pennsylvania Draws Estimated 25,000 Supporters",
+    "source": "CNN",
+    "summary": "Donald Trump held a major rally in Erie, Pennsylvania, attracting a large crowd in a key swing state. Trump criticized the current administration's economic policies and promoted his endorsed candidates in upcoming state elections. The event demonstrated his continued ability to mobilize large audiences despite not currently holding office.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage acknowledged the substantial turnout while presenting both Trump's messaging and critics' responses. Mainstream outlets reported the event factually, with some emphasis on crowd size as evidence of political relevance, balanced against concerns about divisive rhetoric.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-30-01",
+    "date": "2026-05-30",
+    "headline": "New Book by Former Trump Aide Details Chaotic White House Decision-Making",
+    "source": "New York Times",
+    "summary": "A memoir by former senior adviser published excerpts revealing internal disagreements over foreign policy decisions during Trump's presidency. The book described instances of impulsive decision-making and staff efforts to moderate Trump's instincts. Trump dismissed the book as \"fake news\" and attacked the author's credibility on social media.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Media coverage focused on unflattering revelations and characterizations of Trump's management style. Headlines emphasized chaos and dysfunction, with the narrative centered on critical insider accounts and Trump's defensive response to the allegations.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-29-01",
+    "date": "2026-05-29",
+    "headline": "Trump Endorses Wave of Republican Candidates in 2026 Midterm Primaries",
+    "source": "Fox News",
+    "summary": "Donald Trump announced endorsements for 23 Republican candidates across 15 states ahead of primary elections. The endorsements included several challengers to incumbent Republicans Trump labeled as insufficiently loyal. Political observers noted Trump's continued influence in shaping the GOP's candidate selection process.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Conservative outlets emphasized Trump's kingmaker role and ongoing party influence, framing endorsements as demonstrations of political power. Coverage focused on his ability to shape Republican contests and the enthusiasm of endorsed candidates receiving his support.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-28-01",
+    "date": "2026-05-28",
+    "headline": "Federal Appeals Court Revives Civil Lawsuit Against Trump Over 2021 Capitol Events",
+    "source": "Associated Press",
+    "summary": "The D.C. Circuit Court of Appeals reversed a lower court dismissal and allowed civil lawsuits from Capitol Police officers to proceed against Donald Trump. The ruling determined that Trump's actions on January 6, 2021, were not protected by presidential immunity in this civil context. Trump's legal team announced plans to appeal to the Supreme Court.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage highlighted legal setbacks and renewed focus on January 6th events, with headlines emphasizing the court defeat. Media framed the decision as a significant legal challenge and potential liability, with legal experts discussing implications for Trump's legal exposure.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-05-26-01",
+    "date": "2026-05-26",
+    "headline": "Trump Organization Reports Record Revenue from International Hotel Ventures",
+    "source": "Wall Street Journal",
+    "summary": "The Trump Organization released financial data showing a 45% increase in revenue from overseas properties in Q1 2026. New developments in the Middle East and Southeast Asia contributed to the growth. The company stated it had successfully expanded its hospitality footprint during Trump's post-presidency period.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Business media framed this as a successful expansion and financial achievement for the Trump brand. The coverage emphasized growth metrics and business acumen, with financial analysts noting the strategic timing of international ventures.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-05-25-007",
     "date": "2026-05-25",
     "headline": "Trump Raises $45 Million at Florida Fundraising Event",
