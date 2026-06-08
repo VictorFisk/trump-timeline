@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-06-08-book-release",
+    "date": "2026-06-08",
+    "headline": "Former Trump Advisor Releases Tell-All Book Detailing White House Conflicts",
+    "source": "New York Times",
+    "summary": "A former senior Trump administration official published a memoir describing internal disagreements over policy decisions and Trump's management style. The book includes previously unreported details about national security debates and staff tensions. Trump dismissed the account as 'fabricated lies' from a 'disgruntled' former employee.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage focused on unflattering revelations and chaotic White House dynamics described in the book. The framing emphasized controversial anecdotes and Trump's combative response, with excerpts highlighting contentious incidents and management concerns.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-07-fundraising",
+    "date": "2026-06-07",
+    "headline": "Trump Campaign Reports Record $87 Million Raised in May",
+    "source": "Fox News",
+    "summary": "The Trump campaign announced it raised $87 million in May, setting a monthly record for the campaign cycle. The fundraising total exceeded all other Republican candidates combined. Campaign officials attributed the surge to small-dollar donors and enthusiasm among the base.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "The coverage highlighted record-breaking fundraising numbers as a sign of strong campaign momentum and grassroots support. The framing emphasized Trump's financial dominance in the race and organizational strength heading into the primary season.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-06-nato-comments",
+    "date": "2026-06-06",
+    "headline": "Trump's NATO Criticism Draws Rebuke from European Leaders",
+    "source": "BBC",
+    "summary": "European officials responded sharply to Donald Trump's remarks suggesting he would reconsider U.S. NATO commitments if re-elected. Trump stated that member nations must increase defense spending to 3% of GDP or face reduced American support. NATO Secretary General called the comments 'unhelpful' amid ongoing security tensions.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage emphasized international criticism and diplomatic concerns, with quotes from European leaders expressing alarm. The framing suggested Trump's comments could undermine the alliance and create geopolitical instability.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-05-poll-numbers",
+    "date": "2026-06-05",
+    "headline": "New Poll Shows Trump Leading Republican Primary Field by 25 Points",
+    "source": "CNN",
+    "summary": "A CNN poll released Thursday showed Trump maintaining a commanding lead in the Republican presidential primary race with 52% support among likely primary voters. His nearest competitor polled at 27%. The survey of 1,200 Republican voters had a margin of error of 3.5%.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The coverage highlighted Trump's dominant position in the primary race with straightforward reporting of strong poll numbers. While neutral in tone, the substance of leading significantly in polls represents favorable news for a candidate.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-04-endorsement",
+    "date": "2026-06-04",
+    "headline": "Trump Endorses Primary Challenger to Sitting Republican Senator",
+    "source": "Washington Post",
+    "summary": "Donald Trump announced his endorsement of a primary challenger against incumbent Republican Senator in Montana, escalating intra-party tensions. The endorsement followed the Senator's criticism of Trump's influence on the party. Political analysts suggested this could test Trump's continued sway over Republican primary voters.",
+    "sentiment": "negative",
+    "sentimentScore": -3,
+    "sentimentReason": "Coverage emphasized party division and conflict, with experts quoted expressing concern about Republican unity. The framing suggested Trump's intervention could weaken the party's Senate prospects in a competitive state.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-03-legal-victory",
+    "date": "2026-06-03",
+    "headline": "Appeals Court Dismisses Civil Fraud Case Against Trump Organization",
+    "source": "Associated Press",
+    "summary": "A federal appeals court dismissed a civil fraud lawsuit against the Trump Organization, citing insufficient evidence to proceed. The ruling overturned a lower court decision and represented a significant legal victory for the former president. Prosecutors indicated they would not appeal the decision.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The coverage framed this as a major legal win for Trump, with headlines emphasizing the dismissal and Trump's legal team celebrating the outcome. The reporting noted this could boost his political standing by removing a pending legal challenge.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-06-01-01",
     "date": "2026-06-01",
     "headline": "Poll Shows Trump Leading Potential 2028 Republican Primary Field by 30 Points",
