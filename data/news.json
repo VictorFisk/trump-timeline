@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-06-15-01",
+    "date": "2026-06-15",
+    "headline": "Trump Holds First Joint Rally with GOP Presidential Candidates in Ohio",
+    "source": "BBC",
+    "summary": "Donald Trump appeared alongside three Republican presidential hopefuls at a unity rally in Cleveland, drawing an estimated crowd of 15,000. The event, billed as a show of party strength ahead of the midterm elections, featured Trump avoiding direct commentary on his own 2028 presidential plans.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage was balanced, focusing on the political spectacle and party dynamics without strong positive or negative framing. The story noted both the impressive turnout and Trump's strategic ambiguity about future plans, presenting multiple interpretations of the event's significance.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-14-01",
+    "date": "2026-06-14",
+    "headline": "Trump Reaches Settlement in Class Action Lawsuit Over Hotel Worker Wages",
+    "source": "Associated Press",
+    "summary": "Donald Trump and the Trump Organization agreed to pay $12.5 million to settle a class action lawsuit filed by former hotel workers alleging wage violations. The settlement, which Trump described as a 'nuisance resolution,' covers approximately 800 plaintiffs but includes no admission of wrongdoing.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "While settlements are common business practice, the coverage focused on allegations of labor violations and the substantial payout amount. The framing suggested legal and reputational concerns, though Trump's characterization as a 'nuisance' settlement was included for balance.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-13-01",
+    "date": "2026-06-13",
+    "headline": "House Committee Subpoenas Trump Associates in January 6th Follow-Up Investigation",
+    "source": "CNN",
+    "summary": "The House Select Committee issued subpoenas to four former Trump advisors as part of an ongoing investigation into previously undisclosed communications from January 2021. The committee is examining newly obtained documents that allegedly show coordination between White House staff and outside groups.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The story was framed around renewed legal scrutiny and potential wrongdoing, emphasizing phrases like 'undisclosed communications' and 'alleged coordination.' Coverage suggested the investigation could lead to additional legal complications for Trump and his associates.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-11-01",
+    "date": "2026-06-11",
+    "headline": "Trump Endorsement Leads to Primary Victory in Arizona Senate Race",
+    "source": "Fox News",
+    "summary": "Trump-backed candidate Mark Henderson won the Republican primary for Arizona's Senate seat with 58% of the vote. The victory marks Trump's twelfth successful primary endorsement of the 2026 election cycle, reinforcing his influence within the Republican Party.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage portrayed this as evidence of Trump's continued political power and relevance within the GOP. The story emphasized his winning streak in endorsements and framed it as a demonstration of his ability to shape Republican politics.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-09-01",
+    "date": "2026-06-09",
+    "headline": "Federal Appeals Court Rejects Trump's Motion to Dismiss Civil Fraud Case",
+    "source": "The New York Times",
+    "summary": "A three-judge panel of the Second Circuit Court of Appeals unanimously denied Donald Trump's request to dismiss a civil fraud lawsuit brought by New York State. The decision allows the case to proceed to trial, which is scheduled for September 2026.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The coverage emphasized legal setbacks and potential financial liabilities for Trump. The unanimous nature of the court's decision was highlighted, suggesting a significant legal defeat with limited grounds for appeal.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-06-08-book-release",
     "date": "2026-06-08",
     "headline": "Former Trump Advisor Releases Tell-All Book Detailing White House Conflicts",
