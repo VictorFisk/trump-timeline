@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-06-21-001",
+    "date": "2026-06-21",
+    "headline": "Former Trump Aide Agrees to Cooperate in Special Counsel Investigation",
+    "source": "New York Times",
+    "summary": "A former senior Trump administration official has agreed to provide testimony to federal investigators examining January 6 related matters. The cooperation agreement includes document production and multiple interview sessions. Sources indicate the aide has direct knowledge of key events under investigation.",
+    "sentiment": "negative",
+    "sentimentScore": -8,
+    "sentimentReason": "Media framing emphasized a potentially damaging development for Trump with insider cooperation. Coverage highlighted the significance of direct witness testimony and suggested the investigation was intensifying, with legal experts noting the strategic importance of the cooperation.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-20-001",
+    "date": "2026-06-20",
+    "headline": "Trump Social Media Platform Reports Record User Growth",
+    "source": "BBC",
+    "summary": "Truth Social announced a 40% increase in active users over the past quarter, reaching 25 million monthly active users. The platform's parent company attributed growth to enhanced features and international expansion. Stock prices for Trump Media & Technology Group rose 15% on the news.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Coverage highlighted significant business success and market validation for Trump's media venture. The framing emphasized concrete growth metrics and positive investor response, presenting the development as a notable achievement in the competitive social media landscape.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-18-001",
+    "date": "2026-06-18",
+    "headline": "House Committee Subpoenas Trump Organization Financial Records",
+    "source": "CNN",
+    "summary": "The House Oversight Committee issued subpoenas for Trump Organization financial documents spanning 2020-2026. Committee leadership cited concerns about potential conflicts of interest and foreign payments. Trump spokesman dismissed the inquiry as politically motivated harassment.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Media coverage emphasized renewed congressional scrutiny and investigative pressure on Trump's business dealings. The framing focused on accountability questions and legal exposure, though Trump's rebuttal received secondary mention.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-17-001",
+    "date": "2026-06-17",
+    "headline": "Trump Poll Numbers Show Gain in Key Swing States",
+    "source": "Fox News",
+    "summary": "New polling data indicates Donald Trump has gained ground in Pennsylvania, Michigan, and Arizona. The surveys show Trump leading potential Democratic challengers by 3-5 points in these battleground states. Political analysts attribute the movement to economic concerns among voters.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage presented favorable electoral prospects for Trump with concrete polling advantages. The framing emphasized Trump's competitive position and momentum in critical states, with analysis suggesting strengthening political standing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-16-001",
+    "date": "2026-06-16",
+    "headline": "Federal Appeals Court Rejects Trump Motion in Documents Case",
+    "source": "Washington Post",
+    "summary": "A federal appeals court denied Donald Trump's motion to dismiss charges related to classified documents retention. The three-judge panel unanimously ruled that the case could proceed to trial. Trump's legal team indicated they would explore further appeal options.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The coverage highlighted a significant legal setback for Trump with the unanimous court decision. Media framing emphasized the judicial rebuke and ongoing legal jeopardy, with legal experts quoted on the strength of the prosecution's case.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-06-15-01",
     "date": "2026-06-15",
     "headline": "Trump Holds First Joint Rally with GOP Presidential Candidates in Ohio",
