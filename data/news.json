@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-07-06-001",
+    "date": "2026-07-06",
+    "headline": "New Poll Shows Trump Leading Potential 2028 GOP Primary Field by 28 Points",
+    "source": "NBC News",
+    "summary": "A national poll released by Morning Consult shows Donald Trump with 52% support among likely Republican primary voters for 2028, leading his nearest competitor by 28 percentage points. The survey of 2,400 registered Republicans was conducted June 28-July 3.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage presented the polling data as evidence of Trump's dominant position within the Republican Party and strong political viability. Right-leaning outlets framed the results as validation of Trump's leadership, while even neutral sources acknowledged his commanding lead as noteworthy.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-04-001",
+    "date": "2026-07-04",
+    "headline": "Trump Hosts Independence Day Event at Mar-a-Lago, Criticizes Current Administration",
+    "source": "CNN",
+    "summary": "Donald Trump hosted an Independence Day celebration at his Mar-a-Lago estate with approximately 500 guests, including Republican donors and elected officials. During remarks, he sharply criticized current economic and foreign policies while hinting at future political plans.",
+    "sentiment": "negative",
+    "sentimentScore": -3,
+    "sentimentReason": "Mainstream coverage emphasized Trump's critical and divisive rhetoric on a national holiday, with framing that suggested the event was primarily political rather than patriotic. Some outlets noted the contrast between Trump's messaging and traditional Independence Day themes of unity.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-02-001",
+    "date": "2026-07-02",
+    "headline": "Trump Speaks at Religious Liberty Conference, Draws Crowd of 15,000",
+    "source": "Washington Post",
+    "summary": "Donald Trump delivered the keynote address at the Faith and Freedom Coalition conference in Nashville, Tennessee. His speech focused on religious liberty issues and drew an estimated 15,000 attendees, one of the conference's largest audiences.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage was primarily factual, reporting on attendance figures and speech content with quotes from both supporters and critics. Most outlets treated it as a standard political event without particularly positive or negative framing beyond noting its significance for evangelical outreach.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-30-001",
+    "date": "2026-06-30",
+    "headline": "Federal Appeals Court Dismisses Trump's Lawsuit Against Former Advisers",
+    "source": "Associated Press",
+    "summary": "The Fourth Circuit Court of Appeals dismissed Donald Trump's defamation lawsuit against three former administration officials who published critical memoirs. The court ruled that the statements were protected opinion and matters of public concern.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Media framed the ruling as a legal setback for Trump, emphasizing the unanimous decision and the court's strong language regarding frivolous litigation. Coverage highlighted this as part of a pattern of unsuccessful legal actions by Trump against critics.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-27-001",
+    "date": "2026-06-27",
+    "headline": "Trump Endorses Three Congressional Candidates in Key Primary Races",
+    "source": "Fox News",
+    "summary": "Donald Trump issued endorsements for Republican congressional candidates in Arizona, Pennsylvania, and Georgia ahead of their August primaries. Political analysts view the endorsements as Trump consolidating influence within the GOP ahead of the 2028 election cycle.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Conservative outlets framed the endorsements as demonstration of Trump's continued party influence and kingmaker status. Coverage emphasized enthusiasm from endorsed candidates and portrayed Trump as the GOP's leading voice for candidate selection.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-06-24-001",
+    "date": "2026-06-24",
+    "headline": "Trump Organization Faces New York Tax Audit Over 2024-2025 Filings",
+    "source": "New York Times",
+    "summary": "The New York State Department of Taxation and Finance announced a routine audit of Trump Organization tax returns for the 2024-2025 fiscal years. Trump's legal team stated they are cooperating fully and expect no irregularities to be found.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Media coverage emphasized Trump's history of legal and financial scrutiny, with headlines highlighting the audit announcement prominently. The framing suggested ongoing regulatory challenges, though the routine nature of the audit was also mentioned.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-06-21-001",
     "date": "2026-06-21",
     "headline": "Former Trump Aide Agrees to Cooperate in Special Counsel Investigation",
