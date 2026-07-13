@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-07-13-fundraising",
+    "date": "2026-07-13",
+    "headline": "Trump Political Operation Raises $45 Million in Second Quarter",
+    "source": "BBC",
+    "summary": "Donald Trump's political action committees and campaign entities raised $45 million during the second quarter of 2026, according to federal filings. The fundraising haul demonstrates Trump's continued ability to mobilize small-dollar donors, with 68% of contributions coming from donations under $200.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The BBC framed the fundraising numbers as evidence of Trump's robust political organization and grassroots support. The emphasis on small-dollar donations highlighted his broad base of financial backing, portraying strong momentum for potential future political activities.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-12-investigation",
+    "date": "2026-07-12",
+    "headline": "House Committee Subpoenas Trump Associates in January 6th Records Investigation",
+    "source": "AP",
+    "summary": "A House select committee issued subpoenas to four former Trump administration officials seeking documents and testimony related to presidential records handling. The subpoenas are part of an ongoing investigation into the preservation and management of White House documents during Trump's presidency.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "The AP coverage presented the subpoenas as an expansion of congressional oversight of Trump's presidency. While factual in tone, the story emphasized the continued scrutiny Trump faces from congressional investigators and potential legal complications for his associates.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-11-endorsement",
+    "date": "2026-07-11",
+    "headline": "Trump-Endorsed Candidate Wins Republican Senate Primary in Arizona",
+    "source": "Fox News",
+    "summary": "Blake Masters, endorsed by Donald Trump, secured victory in Arizona's Republican Senate primary with 58% of the vote. The win marks Trump's continued influence in Republican primaries, with Masters defeating three establishment-backed candidates who had criticized Trump's role in the party.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Fox News framed the primary victory as validation of Trump's kingmaker status within the Republican Party. The coverage emphasized Trump's successful track record in endorsements and his ability to determine primary outcomes, portraying him as the party's dominant political force.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-10-business",
+    "date": "2026-07-10",
+    "headline": "Trump Organization Reports $120 Million Loss in Annual Financial Filing",
+    "source": "New York Times",
+    "summary": "The Trump Organization disclosed significant financial losses in its annual report filed with New York State regulators, citing decreased revenue from hotels and golf courses. The filing revealed operational challenges and declining property valuations at several Trump-branded properties across the United States.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "The Times emphasized the business struggles facing Trump's commercial empire, focusing on declining revenues and property values. The coverage suggested financial vulnerabilities in Trump's business operations, though it remained factual in presenting the disclosed numbers.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-09-poll",
+    "date": "2026-07-09",
+    "headline": "Trump Leads Republican Field in Early 2028 Presidential Polling",
+    "source": "CNN",
+    "summary": "A new CNN poll shows Donald Trump maintaining a commanding lead among potential Republican presidential candidates for 2028, with 52% support among Republican voters. Florida Governor Ron DeSantis trails in second place with 18%, while other potential candidates remain in single digits.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The coverage presented Trump's strong polling position as evidence of his continued dominance within the Republican Party. The substantial lead over competitors was framed as demonstrating his enduring political strength and base loyalty despite ongoing legal challenges.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-08-legal",
+    "date": "2026-07-08",
+    "headline": "Appeals Court Denies Trump Motion to Dismiss Georgia Election Case",
+    "source": "Washington Post",
+    "summary": "A federal appeals court rejected Donald Trump's latest attempt to dismiss charges related to efforts to overturn the 2020 election results in Georgia. The three-judge panel ruled unanimously that Trump's immunity claims did not apply to the specific charges in question, allowing the case to proceed toward trial.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The coverage highlighted a legal setback for Trump, emphasizing the unanimous rejection of his defense strategy. The framing focused on the court's rebuke of his immunity arguments and the continuation of criminal proceedings against him.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-07-06-001",
     "date": "2026-07-06",
     "headline": "New Poll Shows Trump Leading Potential 2028 GOP Primary Field by 28 Points",
