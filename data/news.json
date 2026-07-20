@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-07-20-001",
+    "date": "2026-07-20",
+    "headline": "Justice Department Subpoenas Trump Organization Records in Tax Investigation",
+    "source": "Associated Press",
+    "summary": "The Department of Justice issued new subpoenas to the Trump Organization seeking financial records related to an ongoing tax investigation. Federal prosecutors are examining deductions claimed on properties in multiple states between 2018 and 2022. Trump's attorneys called the investigation politically motivated and pledged full cooperation.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The coverage focused on expanding legal scrutiny and federal investigation into Trump's business practices. The framing emphasized investigative actions by authorities and potential legal exposure, though Trump's response claiming political motivation was included for balance.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-19-001",
+    "date": "2026-07-19",
+    "headline": "Poll Shows Trump Leading Republican Primary Field by 15 Points",
+    "source": "CNN",
+    "summary": "A new CNN poll indicates Donald Trump maintains a significant lead among likely Republican primary voters with 42% support, 15 points ahead of his nearest competitor. The survey of 1,200 registered Republicans was conducted July 12-17. Trump's favorability rating among Republicans stood at 71%.",
+    "sentiment": "neutral",
+    "sentimentScore": 3,
+    "sentimentReason": "Coverage presented objective polling data without substantial editorial framing. While the numbers showed Trump's political strength, the reporting remained factual and balanced, presenting the information as newsworthy data rather than explicitly positive or negative commentary.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-18-001",
+    "date": "2026-07-18",
+    "headline": "Trump Foundation Announces $50 Million Scholarship Program for Veterans",
+    "source": "Fox News",
+    "summary": "Donald Trump announced a new charitable initiative providing college scholarships to children of military veterans killed or disabled in service. The program, funded through the Trump Foundation, will award up to $50 million over five years. Veterans' organizations praised the announcement at a ceremony in Washington D.C.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "The coverage was overwhelmingly positive, focusing on charitable giving and support for military families. Media framing highlighted Trump's generosity and commitment to veterans, with endorsements from veterans' groups reinforcing the favorable narrative.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-17-001",
+    "date": "2026-07-17",
+    "headline": "Trump Criticized by Republican Senators Over NATO Comments",
+    "source": "Washington Post",
+    "summary": "Several prominent Republican senators publicly rebuked Donald Trump after he suggested at a private fundraiser that the U.S. should reconsider NATO commitments. Senators Mitt Romney and Susan Collins issued statements defending the alliance. Trump later clarified he supports NATO but wants European nations to increase defense spending.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage highlighted intra-party conflict and criticism from Trump's own party members. The framing emphasized controversy and discord, with focus on the rebuke from fellow Republicans, though Trump's clarification provided some balance to the narrative.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-16-001",
+    "date": "2026-07-16",
+    "headline": "Trump Media & Technology Group Reports Q2 Earnings, Stock Rises 8%",
+    "source": "The Wall Street Journal",
+    "summary": "Trump Media & Technology Group released second-quarter earnings that exceeded analyst expectations, with user growth on Truth Social platform up 22% year-over-year. The company's stock price increased 8% in after-hours trading. CEO Devin Nunes attributed the growth to expanding international markets.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The financial news was framed positively, highlighting business success and stock market gains. Coverage emphasized concrete metrics of growth and market confidence, presenting Trump's business venture in a favorable light with objective financial data.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-07-13-fundraising",
     "date": "2026-07-13",
     "headline": "Trump Political Operation Raises $45 Million in Second Quarter",
