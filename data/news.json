@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-07-26-01",
+    "date": "2026-07-26",
+    "headline": "Poll Shows Trump Leading GOP Presidential Primary Field by 23 Points",
+    "source": "New York Times",
+    "summary": "A new national poll indicates Donald Trump maintains a commanding lead in the Republican presidential primary race for 2028, with 52% support among likely GOP voters. His nearest competitor registered 29% in the survey of 1,200 Republican-leaning respondents.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted Trump's dominant position within the Republican Party and strong voter support. The substantial polling lead was presented as evidence of his continued political strength and influence among the GOP base.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-25-01",
+    "date": "2026-07-25",
+    "headline": "Trump Holds Rally Drawing 15,000 Supporters in North Carolina",
+    "source": "CNN",
+    "summary": "Donald Trump held a campaign-style rally in Charlotte, North Carolina, attracting approximately 15,000 attendees. Trump focused his speech on immigration policy, economic issues, and criticism of the current administration's handling of foreign affairs.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage provided factual reporting on attendance figures and speech content. While supportive outlets emphasized the crowd size, critical outlets focused on controversial statements, resulting in balanced overall framing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-24-01",
+    "date": "2026-07-24",
+    "headline": "House Committee Subpoenas Trump Associates Over Document Retention Practices",
+    "source": "Washington Post",
+    "summary": "The House Oversight Committee issued subpoenas to three former Trump administration officials regarding document handling and preservation practices. The investigation stems from ongoing concerns about compliance with presidential records laws during Trump's tenure.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage framed the subpoenas as evidence of continued congressional scrutiny and potential legal exposure. The focus was on accountability questions and the expansion of investigations into Trump's record-keeping practices.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-23-01",
+    "date": "2026-07-23",
+    "headline": "Trump Organization Reports Strong Q2 Earnings at Golf Properties",
+    "source": "CNBC",
+    "summary": "The Trump Organization released financial data showing increased revenue at its golf course and resort properties for the second quarter of 2026. Company executives attributed the growth to expanded membership and increased tournament bookings at Trump-branded facilities.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage focused on the business success and financial performance metrics. The reporting was primarily factual about revenue growth, with business outlets presenting it as a straightforward earnings story.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-22-01",
+    "date": "2026-07-22",
+    "headline": "Trump Endorses Senate Candidates in Three Competitive Races",
+    "source": "Fox News",
+    "summary": "Donald Trump announced endorsements for Republican Senate candidates in Arizona, Nevada, and Wisconsin ahead of the 2026 midterm elections. The endorsements were seen as Trump asserting influence over GOP primary contests in crucial swing states.",
+    "sentiment": "neutral",
+    "sentimentScore": 3,
+    "sentimentReason": "Coverage presented the endorsements as standard political maneuvering ahead of midterms. While some outlets noted Trump's continued party influence, others questioned whether his endorsements would help or hurt candidates in general elections.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-07-20-001",
     "date": "2026-07-20",
     "headline": "Justice Department Subpoenas Trump Organization Records in Tax Investigation",
