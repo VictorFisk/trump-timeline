@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-08-03-business",
+    "date": "2026-08-03",
+    "headline": "Trump Organization Announces Major Real Estate Development in Florida",
+    "source": "New York Times",
+    "summary": "The Trump Organization unveiled plans for a $500 million mixed-use development in South Florida. The project includes residential towers, retail space, and a golf course, marking the company's largest new project since 2024.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Business coverage focused on project details and economic impact with minimal political context. The article included standard analysis of market conditions and company statements without significant editorial framing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-02-speech",
+    "date": "2026-08-02",
+    "headline": "Trump Delivers Foreign Policy Address, Proposes Major NATO Restructuring",
+    "source": "BBC",
+    "summary": "Speaking at the Conservative Political Action Conference, Trump outlined his foreign policy vision including significant changes to NATO funding structures. European officials responded with cautious statements about the importance of the transatlantic alliance.",
+    "sentiment": "neutral",
+    "sentimentScore": -1,
+    "sentimentReason": "International coverage maintained neutral tone while noting concerns from European allies. The article balanced Trump's policy proposals with diplomatic reactions and historical context about NATO relations.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-01-endorsement",
+    "date": "2026-08-01",
+    "headline": "Trump Endorsement Splits Ohio Republican Party Ahead of Senate Primary",
+    "source": "Associated Press",
+    "summary": "Trump's endorsement of a controversial candidate in Ohio's Senate primary has created divisions within the state's Republican establishment. Party leaders expressed concerns about electability in the general election while Trump-aligned groups defended the choice.",
+    "sentiment": "negative",
+    "sentimentScore": -3,
+    "sentimentReason": "Coverage emphasized party divisions and concerns about electoral consequences. The framing highlighted tensions between Trump and traditional Republican leadership, though it included perspectives from both sides.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-30-poll",
+    "date": "2026-07-30",
+    "headline": "New Poll Shows Trump Leading Republican Primary Field by 32 Points",
+    "source": "CNN",
+    "summary": "A CNN/SSRS poll released Tuesday shows Trump commanding 58% support among likely Republican primary voters, far ahead of his nearest competitor. The poll surveyed 1,200 registered Republicans with a margin of error of 3.5%.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage presented the polling data as evidence of Trump's commanding position in the Republican primary race. While factual in tone, the focus on his substantial lead framed him as the clear frontrunner.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-29-fundraising",
+    "date": "2026-07-29",
+    "headline": "Trump Campaign Reports Record Fundraising Quarter, Surpasses $150 Million",
+    "source": "Fox News",
+    "summary": "Donald Trump's campaign announced it raised over $150 million in the second quarter of 2026, breaking previous fundraising records. The campaign cited strong small-dollar donor support and enthusiasm among the Republican base.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted Trump's strong financial position and grassroots support as indicators of political strength. The article framed the fundraising success as demonstrating his continued dominance in Republican politics.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-07-28-legal",
+    "date": "2026-07-28",
+    "headline": "Federal Appeals Court Dismisses Trump Classification Documents Appeal",
+    "source": "Washington Post",
+    "summary": "The 11th Circuit Court of Appeals rejected an appeal from Trump's legal team regarding the handling of classified documents case procedural matters. The ruling allows the underlying proceedings to continue in district court.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized the legal setback for Trump and quoted legal experts describing it as a significant defeat. The framing highlighted ongoing legal challenges and potential implications for future proceedings.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-07-26-01",
     "date": "2026-07-26",
     "headline": "Poll Shows Trump Leading GOP Presidential Primary Field by 23 Points",
