@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-08-10-foreign",
+    "date": "2026-08-10",
+    "headline": "Trump Meets with Israeli Prime Minister During Middle East Visit",
+    "source": "BBC",
+    "summary": "Former President Trump held talks with Israeli Prime Minister in Jerusalem as part of a four-day Middle East tour. The discussions focused on regional security and U.S.-Israel relations. Trump stated he would 'restore American leadership' in the region if elected in 2028.",
+    "sentiment": "neutral",
+    "sentimentScore": 3,
+    "sentimentReason": "The coverage presents Trump's diplomatic engagement in straightforward terms, focusing on the meeting itself rather than controversy. The framing treats his foreign trip as routine for a presidential candidate, with balanced reporting on his statements about future policy intentions.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-09-fundraising",
+    "date": "2026-08-09",
+    "headline": "Trump Campaign Reports Record $47 Million Raised in July 2026",
+    "source": "The New York Times",
+    "summary": "Donald Trump's political action committee announced it raised $47 million in July, marking the highest monthly total for any potential 2028 candidate. The fundraising haul came primarily from small-dollar donors contributing less than $200. Trump now has $89 million cash on hand for his anticipated presidential campaign.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The coverage highlights Trump's significant fundraising success and grassroots donor support, emphasizing record-breaking figures. The framing presents Trump as financially strong and organizationally prepared, with broad-based financial backing ahead of the 2028 race.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-08-book",
+    "date": "2026-08-08",
+    "headline": "Former Trump Aide Publishes Tell-All Book Detailing White House Tensions",
+    "source": "CNN",
+    "summary": "A former senior Trump administration official released a memoir describing internal conflicts during Trump's presidency from 2017-2021. The book alleges numerous instances of policy disagreements and chaotic decision-making processes. Trump dismissed the account as 'fiction' and called the author a 'disgruntled former employee.'",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "The coverage focuses on critical insider revelations about Trump's leadership style and White House operations. While including Trump's rebuttal, the framing emphasizes damaging allegations of chaos and dysfunction from a firsthand source.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-07-endorsement",
+    "date": "2026-08-07",
+    "headline": "Trump Endorses Five Congressional Candidates in Midwest Primaries",
+    "source": "Associated Press",
+    "summary": "Former President Trump issued endorsements for five Republican congressional candidates facing August primary elections in Michigan, Wisconsin, and Ohio. Trump's previous endorsement record in 2026 primaries shows a 78% success rate. All five candidates have pledged support for Trump's 2028 presidential campaign.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "The coverage presents factual information about Trump's continued political influence without strong editorial framing. The reporting balances his endorsement activity with contextual success rates, maintaining objectivity while noting his ongoing role in Republican politics.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-06-testimony",
+    "date": "2026-08-06",
+    "headline": "Trump Appears for Deposition in New York Civil Fraud Case",
+    "source": "Reuters",
+    "summary": "Donald Trump testified for approximately six hours in a Manhattan courthouse as part of an ongoing civil fraud lawsuit. The case involves allegations of inflated property valuations between 2020 and 2024. Trump invoked his Fifth Amendment rights on multiple questions, according to sources familiar with the proceedings.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The coverage presents Trump in a defensive legal position, with neutral reporting on his invocation of Fifth Amendment protections. The framing emphasizes the seriousness of fraud allegations while maintaining factual tone about ongoing litigation.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-04-rally",
+    "date": "2026-08-04",
+    "headline": "Trump Draws 15,000 to Iowa Rally, Maintains Lead in Early 2028 Polling",
+    "source": "Fox News",
+    "summary": "Former President Donald Trump held a campaign-style rally in Des Moines, attracting approximately 15,000 supporters. New polling shows Trump leading potential Republican challengers by 23 points ahead of the 2028 presidential race. Trump focused his speech on immigration and economic policy.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "The coverage highlights Trump's strong crowd size and dominant polling position among Republicans. The framing emphasizes his continued political strength and enthusiastic base support, presenting him as the clear frontrunner for the nomination.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-08-03-business",
     "date": "2026-08-03",
     "headline": "Trump Organization Announces Major Real Estate Development in Florida",
