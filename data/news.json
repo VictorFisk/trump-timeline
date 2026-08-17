@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-08-17-fundraising",
+    "date": "2026-08-17",
+    "headline": "Trump Campaign Reports $42 Million Raised in First Week Since Announcement",
+    "source": "BBC",
+    "summary": "Donald Trump's 2028 presidential campaign announced it raised $42 million in the first week following his candidacy announcement, setting a record for early campaign fundraising. The campaign reported contributions from over 380,000 individual donors with an average donation of $67.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage emphasized the unprecedented fundraising haul as evidence of strong grassroots support and campaign viability. The framing highlighted the organizational strength demonstrated by the rapid mobilization of donor networks.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-16-gop-response",
+    "date": "2026-08-16",
+    "headline": "Republican Governors Association Distances Itself from Trump's Fed Comments",
+    "source": "New York Times",
+    "summary": "The Republican Governors Association released a statement affirming support for Federal Reserve independence, implicitly rebuking Trump's recent calls to fire Chair Powell. Several prominent GOP governors separately emphasized the importance of keeping monetary policy separate from politics.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "The coverage highlighted internal Republican divisions and establishment pushback against Trump's position. Framing emphasized the unusual nature of party organizations publicly contradicting their likely 2028 nominee.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-15-endorsement",
+    "date": "2026-08-15",
+    "headline": "Trump Endorses Slate of Congressional Candidates in Midwest Primaries",
+    "source": "Fox News",
+    "summary": "Former President Trump announced endorsements for seven congressional candidates across Michigan, Wisconsin, and Ohio ahead of their 2027 primary elections. The endorsed candidates have all pledged support for Trump's 2028 presidential bid.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the endorsements as standard campaign activity, noting Trump's continued influence in Republican primaries. The reporting was straightforward, with some analysis of his endorsement record from previous cycles.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-14-controversy",
+    "date": "2026-08-14",
+    "headline": "Trump Comments on Federal Reserve Spark Criticism from Economists",
+    "source": "Washington Post",
+    "summary": "Donald Trump called for the immediate firing of Federal Reserve Chair Jerome Powell during a campaign stop in New Hampshire, claiming Powell's policies are 'destroying the economy.' Economists and former officials from both parties criticized the remarks as inappropriate pressure on the independent central bank.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized criticism from experts and concerns about undermining Fed independence. The framing focused on bipartisan pushback and potential economic ramifications of political interference with monetary policy.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-11-legal",
+    "date": "2026-08-11",
+    "headline": "Appeals Court Dismisses Remaining Civil Case Against Trump Organization",
+    "source": "Associated Press",
+    "summary": "A federal appeals court dismissed a civil lawsuit against the Trump Organization, citing procedural issues with the plaintiff's standing. The decision marked the conclusion of one of several legal challenges the former president has faced since leaving office.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The dismissal was framed as a legal victory for Trump and his organization. Coverage emphasized the end of litigation that had been ongoing for years, with Trump's legal team celebrating the outcome.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-08-10-foreign",
     "date": "2026-08-10",
     "headline": "Trump Meets with Israeli Prime Minister During Middle East Visit",
