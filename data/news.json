@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-08-24-001",
+    "date": "2026-08-24",
+    "headline": "Trump Campaign Raises $47 Million in First Week Following Launch",
+    "source": "Washington Post",
+    "summary": "Donald Trump's 2028 presidential campaign reported raising $47 million in the seven days following his August 17 announcement. The fundraising total exceeded early projections and included donations from over 380,000 individual contributors. Campaign officials indicated strong grassroots support and small-dollar donation momentum.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "The Washington Post framed the fundraising figures as exceeding expectations and demonstrating significant campaign viability. While maintaining factual reporting, the article emphasized the robust financial support and organizational strength of Trump's campaign operation.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-23-001",
+    "date": "2026-08-23",
+    "headline": "Trump Endorses 12 Congressional Candidates in Midwestern Primary Races",
+    "source": "CNN",
+    "summary": "Donald Trump issued endorsements for a dozen Republican congressional candidates across Ohio, Michigan, and Wisconsin ahead of their 2027 primaries. The endorsements signal Trump's continued influence over Republican Party candidate selection. Several endorsed candidates immediately saw fundraising surges following the announcements.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "CNN coverage acknowledged Trump's continued party influence while also noting that some previous Trump endorsements have failed. The article balanced perspectives from both Trump-aligned and traditional Republican strategists.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-22-001",
+    "date": "2026-08-22",
+    "headline": "Federal Appeals Court Hears Arguments in Trump Immunity Case",
+    "source": "Associated Press",
+    "summary": "The D.C. Circuit Court of Appeals heard oral arguments regarding Trump's claims of presidential immunity in connection with a 2023 indictment. Trump's attorneys argued for broad immunity protections while prosecutors contended former presidents are not above the law. A ruling is expected within 60 days.",
+    "sentiment": "neutral",
+    "sentimentScore": -1,
+    "sentimentReason": "AP provided straight procedural coverage of the court proceedings, presenting arguments from both sides equally. While the legal case itself is challenging for Trump, the neutral reporting style focused on the constitutional questions rather than political implications.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-21-001",
+    "date": "2026-08-21",
+    "headline": "Trump Social Media Platform Reaches 50 Million Active Users",
+    "source": "Wall Street Journal",
+    "summary": "Truth Social announced it has surpassed 50 million monthly active users, representing significant growth since 2025. The platform, founded by Trump after his 2021 social media bans, has become a major competitor in the social media landscape. Analysts attribute growth to recent feature additions and increased mainstream adoption.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "The WSJ covered the milestone as a business success story, focusing on user growth metrics and market valuation. The article highlighted Trump's entrepreneurial achievement while maintaining a business-focused rather than political tone.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-20-001",
+    "date": "2026-08-20",
+    "headline": "Trump Leads Republican Primary Polls by 25 Points, New Survey Shows",
+    "source": "Fox News",
+    "summary": "A Fox News poll released Wednesday shows Donald Trump commanding 58% support among likely Republican primary voters for 2028. His nearest competitor trails at 33%, indicating strong early support within the party. The poll surveyed 1,200 registered Republicans with a margin of error of 3%.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Fox News framed the polling results as demonstrating Trump's dominant position and enthusiastic base support. The coverage included positive commentary from Republican strategists about Trump's campaign momentum and fundraising potential.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-19-001",
+    "date": "2026-08-19",
+    "headline": "Trump Faces New Subpoena in Ongoing New York Civil Investigation",
+    "source": "New York Times",
+    "summary": "New York Attorney General's office issued a fresh subpoena to Donald Trump related to financial dealings involving Trump Organization properties. The subpoena requests documents dating from 2024-2026 concerning property valuations. Trump's legal team indicated they would challenge the subpoena in court.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The NYT coverage emphasized the ongoing legal challenges facing Trump and quoted legal experts suggesting potential complications for his campaign. The framing highlighted the accumulation of legal issues and their potential political impact.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-08-17-fundraising",
     "date": "2026-08-17",
     "headline": "Trump Campaign Reports $42 Million Raised in First Week Since Announcement",
