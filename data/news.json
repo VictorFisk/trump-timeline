@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-08-31-007",
+    "date": "2026-08-31",
+    "headline": "Trump Social Media Platform Reports Surge in User Growth",
+    "source": "BBC",
+    "summary": "Truth Social, the social media platform founded by Donald Trump, reported a 35% increase in monthly active users over the past quarter, reaching 12 million users. The company attributed the growth to increased political engagement ahead of the midterm elections.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "BBC reported the business success and user growth as a notable achievement in the competitive social media landscape. The coverage framed the platform's expansion as evidence of Trump's continued cultural influence and business acumen, though it maintained journalistic distance with factual reporting.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-30-006",
+    "date": "2026-08-30",
+    "headline": "New Book by Former Trump Advisor Claims Inside Account of White House Tensions",
+    "source": "New York Times",
+    "summary": "A former senior advisor to Donald Trump published a memoir detailing internal conflicts and decision-making processes during his administration. The book includes previously unreported details about policy disputes and personnel clashes within the West Wing.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The New York Times coverage focused on controversial revelations and unflattering portrayals of Trump's management style and decision-making. The framing emphasized discord and dysfunction, with the book's claims about chaotic governance receiving prominent placement in the reporting.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-29-005",
+    "date": "2026-08-29",
+    "headline": "Trump Criticizes Federal Reserve Chair Over Interest Rate Policy",
+    "source": "CNN",
+    "summary": "Donald Trump issued a statement sharply criticizing the Federal Reserve's decision to maintain current interest rates, calling the policy 'disastrous for American families.' He argued that the central bank should implement immediate rate cuts to stimulate economic growth.",
+    "sentiment": "negative",
+    "sentimentScore": -3,
+    "sentimentReason": "CNN's coverage highlighted Trump's confrontational stance toward independent institutions and included expert commentary questioning the appropriateness of political pressure on the Federal Reserve. The framing emphasized potential concerns about institutional independence, though it balanced this with Trump's economic arguments.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-28-004",
+    "date": "2026-08-28",
+    "headline": "Trump Leads Republican Field in 2028 Presidential Polling",
+    "source": "Fox News",
+    "summary": "New polling data shows Donald Trump maintaining a commanding lead among potential Republican candidates for the 2028 presidential nomination, with 48% support among likely primary voters. The closest competitor trailed by more than 20 percentage points.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Fox News framed the polling results as evidence of Trump's continued political strength and dominance within the Republican Party. The coverage emphasized his electoral appeal and positioned him as the clear frontrunner, with commentary highlighting his enthusiastic base support.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-08-26-002",
+    "date": "2026-08-26",
+    "headline": "Trump Organization Announces New Real Estate Development in Florida",
+    "source": "Washington Post",
+    "summary": "The Trump Organization unveiled plans for a luxury residential and golf resort complex in Palm Beach County, Florida. The project, estimated at $800 million, would include 500 residential units and a championship golf course.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "The Washington Post reported the business announcement with standard coverage of commercial real estate developments. While the article noted the scale of the investment, it also mentioned ongoing legal scrutiny of Trump's business practices, maintaining a mostly neutral tone with slight positive framing of economic development.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-08-24-001",
     "date": "2026-08-24",
     "headline": "Trump Campaign Raises $47 Million in First Week Following Launch",
