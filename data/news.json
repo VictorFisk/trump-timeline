@@ -1,5 +1,82 @@
 [
   {
+    "id": "trump-2026-09-07-gag-order",
+    "date": "2026-09-07",
+    "headline": "Judge Reimposes Partial Gag Order on Trump in Georgia Election Case",
+    "source": "BBC",
+    "summary": "A Fulton County judge reinstated restrictions on Donald Trump's public statements about witnesses and court staff in the Georgia election interference case after Trump posted comments about a potential witness on social media. The order prohibits statements likely to intimidate participants in the proceedings. Trump's legal team argued the order violates his First Amendment rights.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage emphasized judicial constraints on Trump's behavior and his continued legal jeopardy. The reporting framed the gag order as necessary judicial oversight while highlighting Trump's ongoing conflicts with court authority and legal norms.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-06-book",
+    "date": "2026-09-06",
+    "headline": "Trump Announces New Book 'American Comeback' Set for October Release",
+    "source": "New York Times",
+    "summary": "Former President Donald Trump announced his fourth book since leaving office, titled 'American Comeback: A Vision for 2028.' The book will detail his policy agenda and critique the current administration's record. Publisher Winning Team Publishing expects it to debut at number one on bestseller lists.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage treated the announcement as a standard political and commercial development. The reporting was straightforward, noting Trump's successful track record with previous books while maintaining an objective tone about the upcoming release.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-05-endorsement",
+    "date": "2026-09-05",
+    "headline": "Trump Endorses Primary Challengers to Three Republican Incumbents",
+    "source": "Associated Press",
+    "summary": "Donald Trump announced endorsements for primary challengers opposing three sitting Republican House members who voted for his impeachment in 2021. The endorsed candidates are running in swing districts in Michigan, California, and New York. Republican leadership expressed concern about potential seat losses in the general election.",
+    "sentiment": "neutral",
+    "sentimentScore": -2,
+    "sentimentReason": "Coverage balanced Trump's continued influence over Republican primaries with GOP establishment concerns about electability. The reporting presented both his political power and the potential risks to the party's House majority objectively.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-04-investigation",
+    "date": "2026-09-04",
+    "headline": "House Committee Subpoenas Trump Organization Records in Emoluments Inquiry",
+    "source": "Washington Post",
+    "summary": "The House Oversight Committee issued subpoenas for financial records from Trump Organization entities, investigating potential constitutional violations related to foreign payments during his presidency. The committee is examining payments from foreign governments to Trump properties between 2017-2021. Trump's attorneys called the investigation politically motivated.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage focused on expanded congressional scrutiny and potential constitutional violations. The reporting emphasized the seriousness of emoluments clause allegations and presented Trump's response as defensive, framing the investigation as adding to his legal troubles.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-03-poll",
+    "date": "2026-09-03",
+    "headline": "New Poll Shows Trump Leading GOP Field by 28 Points Ahead of 2028 Primary",
+    "source": "CNN",
+    "summary": "A CNN/SSRS poll released Tuesday shows Donald Trump with 52% support among likely Republican primary voters for 2028. Florida Governor Ron DeSantis trails at 24%, with other candidates in single digits. The poll surveyed 1,200 registered Republicans with a margin of error of 3.5%.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "The coverage presented favorable polling data demonstrating Trump's dominant position within the Republican Party. While reported neutrally, the substantial lead was characterized as evidence of his enduring political strength despite ongoing legal challenges.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-02-rally",
+    "date": "2026-09-02",
+    "headline": "Trump Draws Massive Crowd at Pennsylvania Rally, Promises Economic Revival",
+    "source": "Fox News",
+    "summary": "Former President Donald Trump addressed thousands of supporters in Pittsburgh on Labor Day, attacking the Biden administration's economic record and inflation rates. He outlined his vision for American manufacturing and energy independence. The rally drew an estimated 15,000 attendees according to local officials.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Coverage highlighted strong crowd turnout and enthusiastic supporter response. The reporting emphasized Trump's policy proposals and his continued political influence, with minimal focus on controversies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-01-legal",
+    "date": "2026-09-01",
+    "headline": "Trump Appeals Court Denies Motion to Dismiss Federal Documents Case",
+    "source": "Reuters",
+    "summary": "A federal appeals court rejected Donald Trump's motion to dismiss charges related to classified documents stored at Mar-a-Lago. The three-judge panel ruled that presidential immunity does not extend to actions taken after leaving office. Trump's legal team announced plans to appeal to the Supreme Court.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage emphasized legal setbacks for Trump and the strengthening of federal prosecution efforts. The ruling was framed as a significant defeat in his legal strategy, with analysts suggesting it narrows his defense options.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-08-31-007",
     "date": "2026-08-31",
     "headline": "Trump Social Media Platform Reports Surge in User Growth",
