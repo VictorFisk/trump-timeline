@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-09-14-001",
+    "date": "2026-09-14",
+    "headline": "Trump Legal Team Wins Dismissal of Civil Suit in New York",
+    "source": "BBC",
+    "summary": "A New York state judge dismissed a civil lawsuit against Donald Trump related to business practices dating back to 2018, citing statute of limitations issues. Trump's attorneys celebrated the decision as vindication, while plaintiffs indicated plans to appeal. The dismissal represents one of several recent favorable legal outcomes for the former president.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage focused on a legal victory for Trump with his legal team's successful defense strategy. The framing presented the dismissal as significant relief in Trump's complex legal landscape, though some outlets noted the technical rather than substantive nature of the ruling.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-13-001",
+    "date": "2026-09-13",
+    "headline": "Trump Endorses Five Congressional Candidates in 2026 Midterm Primaries",
+    "source": "CNN",
+    "summary": "Donald Trump issued endorsements for five Republican congressional candidates in upcoming primary elections across three states. The endorsed candidates are largely political newcomers who have pledged loyalty to Trump's agenda and questioned the 2024 election results. Republican establishment figures expressed concern about electability in general elections.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Media framing emphasized potential risks to Republican electoral chances and party division. Coverage highlighted Trump's focus on loyalty over experience and raised questions about the endorsed candidates' controversial positions, presenting the move as potentially problematic for the GOP.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-12-001",
+    "date": "2026-09-12",
+    "headline": "GOP Donors Split Over Trump's Early 2028 Campaign Positioning",
+    "source": "New York Times",
+    "summary": "Major Republican donors expressed divided opinions on Trump's exploratory committee announcement, with some pledging support while others indicated preference for younger candidates. A private dinner in Dallas revealed tensions between traditional GOP establishment figures and Trump loyalists. Fundraising totals from the first week showed modest but steady contributions.",
+    "sentiment": "neutral",
+    "sentimentScore": -2,
+    "sentimentReason": "Coverage presented a balanced view of internal Republican Party dynamics, showing both support and hesitation. The framing suggested uncertainty about Trump's viability rather than outright opposition or enthusiasm, with emphasis on party divisions.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-11-001",
+    "date": "2026-09-11",
+    "headline": "Trump Commemorates 9/11 Anniversary with Ground Zero Visit",
+    "source": "Associated Press",
+    "summary": "Donald Trump attended the 25th anniversary ceremony of the September 11 attacks at Ground Zero in New York City alongside other former presidents and dignitaries. Trump laid a wreath and participated in the moment of silence but did not deliver remarks. The appearance marked his first public event with President Biden since the 2024 election cycle.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Media coverage was respectful and focused on the solemnity of the occasion rather than political divisions. The framing was ceremonial and nonpartisan, though some outlets noted the symbolic nature of former rivals appearing together.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-10-001",
+    "date": "2026-09-10",
+    "headline": "Trump Organization Reports Record Quarterly Revenue from International Properties",
+    "source": "Fox News",
+    "summary": "The Trump Organization announced its highest quarterly revenue in five years, driven primarily by its golf courses and hotels in Scotland, Ireland, and Dubai. Company executives attributed the growth to increased tourism and successful rebranding efforts. The financial disclosure comes amid Trump's renewed political activities.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage highlighted business success and financial growth for Trump's organization. The framing emphasized positive economic performance and successful business strategy, presenting Trump as a successful businessman separate from political controversies.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-09-001",
+    "date": "2026-09-09",
+    "headline": "Federal Appeals Court Rules Against Trump in Documents Classification Dispute",
+    "source": "Washington Post",
+    "summary": "A three-judge panel unanimously rejected Trump's appeal regarding the classification status of documents seized from Mar-a-Lago in 2022. The ruling upholds the government's position that Trump lacks authority to unilaterally declassify materials after leaving office. Trump's legal team indicated they would seek further appeals.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "The coverage emphasized a legal setback for Trump with unanimous judicial rejection of his arguments. Media framing highlighted the narrowing of Trump's legal options and strengthening of the government's position in ongoing legal matters.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-09-07-gag-order",
     "date": "2026-09-07",
     "headline": "Judge Reimposes Partial Gag Order on Trump in Georgia Election Case",
