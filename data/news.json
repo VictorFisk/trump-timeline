@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-09-21-001",
+    "date": "2026-09-21",
+    "headline": "Trump Raises $42 Million in First Week of 2028 Campaign",
+    "source": "Bloomberg",
+    "summary": "Donald Trump's 2028 presidential campaign announced it raised $42 million in its first seven days, setting a record for initial fundraising in a presidential campaign. The campaign reported contributions from over 380,000 individual donors with an average donation of $47.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Bloomberg highlighted the record-breaking fundraising haul as evidence of strong grassroots support and campaign momentum. Coverage emphasized the unprecedented amounts and broad donor base, suggesting a well-funded campaign ahead.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-20-001",
+    "date": "2026-09-20",
+    "headline": "House Democrats Launch Investigation into Trump's Foreign Business Dealings",
+    "source": "Washington Post",
+    "summary": "House Democrats announced a new investigation into Trump Organization's international business transactions conducted during and after his presidency. The inquiry will focus on potential conflicts of interest and whether foreign governments sought to gain influence through business arrangements.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "The Washington Post coverage emphasized the investigative angle and quoted Democrats raising ethics concerns. The framing focused on potential conflicts of interest and questions about foreign influence, presenting the investigation as warranted oversight.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-19-001",
+    "date": "2026-09-19",
+    "headline": "New Poll Shows Trump Leading GOP Primary Field by 35 Points",
+    "source": "Fox News",
+    "summary": "A Fox News poll released Thursday showed Trump commanding 58% support among Republican primary voters, far ahead of his nearest challenger at 23%. The poll indicates strong enthusiasm among the Republican base for Trump's 2028 candidacy.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Fox News framed the polling results as demonstrating Trump's dominant position and strong support within the Republican Party. Coverage highlighted his commanding lead and suggested he remains the clear frontrunner for the nomination.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-18-001",
+    "date": "2026-09-18",
+    "headline": "Trump Criticized for Comments on NATO During Campaign Speech",
+    "source": "CNN",
+    "summary": "Donald Trump faced backlash from foreign policy experts after suggesting the United States should reconsider NATO commitments unless European allies increase defense spending to 3% of GDP. His remarks drew swift condemnation from several Republican senators and European officials.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "CNN's coverage emphasized criticism from foreign policy establishment and concerns about destabilizing the alliance. The framing highlighted bipartisan opposition and quoted multiple critics expressing alarm at Trump's position.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-17-001",
+    "date": "2026-09-17",
+    "headline": "Trump's Business Empire Posts Record Revenue, Financial Disclosures Show",
+    "source": "Wall Street Journal",
+    "summary": "Newly filed financial disclosures revealed Trump Organization revenue exceeded $3.2 billion in fiscal year 2026, marking the highest annual revenue in company history. The growth was primarily driven by international licensing deals and expanded hotel operations.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "The Wall Street Journal highlighted the strong financial performance as evidence of Trump's business acumen. Coverage emphasized the record-breaking revenue figures and successful business expansion during his post-presidency period.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-15-001",
+    "date": "2026-09-15",
+    "headline": "Federal Appeals Court Dismisses Remaining January 6 Civil Case Against Trump",
+    "source": "Associated Press",
+    "summary": "A federal appeals court dismissed the last remaining civil lawsuit related to January 6th events, citing presidential immunity for actions taken while in office. The ruling represents a significant legal victory for Trump as he begins his 2028 campaign.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Coverage framed the dismissal as a major legal win for Trump, reducing his ongoing legal challenges. The AP reported Trump's legal team's celebration of the decision and noted it clears a significant obstacle for his campaign.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-09-14-001",
     "date": "2026-09-14",
     "headline": "Trump Legal Team Wins Dismissal of Civil Suit in New York",
