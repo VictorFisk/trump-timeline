@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-09-28-001",
+    "date": "2026-09-28",
+    "headline": "Trump's Truth Social Platform Reports User Growth Decline in Q3",
+    "source": "BBC",
+    "summary": "Truth Social's parent company disclosed a 22% decline in active users during the third quarter of 2026 compared to Q2. The platform reported 3.8 million monthly active users, down from 4.9 million in June. Company officials attributed the decline to seasonal factors and increased competition from other platforms.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage framed the user decline as a setback for Trump's social media venture and questioned the platform's long-term viability. The emphasis on shrinking user base and competitive challenges presented the story as an unfavorable business development for Trump's media ambitions.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-27-001",
+    "date": "2026-09-27",
+    "headline": "Trump Endorses Slate of Candidates in Upcoming Midwestern State Primaries",
+    "source": "Washington Post",
+    "summary": "Donald Trump announced endorsements for 12 Republican candidates running in upcoming primaries across Michigan, Wisconsin, and Ohio. The endorsements include several challengers to incumbent Republicans whom Trump has criticized. Political analysts note Trump's continued influence over Republican primary contests.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage treated the endorsements as a standard political development, acknowledging Trump's influence while also noting potential intra-party conflicts. The reporting balanced recognition of his political power with questions about divisiveness, resulting in a slightly positive but mostly neutral tone.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-26-001",
+    "date": "2026-09-26",
+    "headline": "Trump Faces New Subpoena in Georgia Election Investigation",
+    "source": "New York Times",
+    "summary": "Fulton County prosecutors issued a new subpoena to Donald Trump seeking testimony and documents related to post-2020 election activities in Georgia. The subpoena requests Trump's appearance before a grand jury in October. Trump's attorneys called the move politically motivated and vowed to fight the subpoena in court.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage emphasized the escalation of legal pressure on Trump and framed the subpoena as part of expanding legal troubles. The reporting highlighted prosecutors' determination to compel testimony and presented the development as a significant legal challenge for the former president.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-25-001",
+    "date": "2026-09-25",
+    "headline": "New Poll Shows Trump Leading Republican 2028 Primary Field by Wide Margin",
+    "source": "CNN",
+    "summary": "A CNN/SSRS poll released Thursday shows Donald Trump with 52% support among likely Republican primary voters for 2028, leading his nearest competitor by 31 points. The poll surveyed 1,200 registered Republicans with a margin of error of 3.5%. Florida Governor Ron DeSantis placed second with 21% support.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage highlighted Trump's dominant position within the Republican Party and his strong support among the base. While presented factually, the emphasis on his commanding lead and continued political relevance framed the story positively for Trump's political standing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-24-001",
+    "date": "2026-09-24",
+    "headline": "Trump Organization Reports Record Profits from International Golf Properties",
+    "source": "Fox News",
+    "summary": "The Trump Organization released quarterly earnings showing a 35% increase in revenue from its international golf course portfolio. Properties in Scotland, Ireland, and Dubai showed particularly strong performance. Company executives attributed the growth to increased tourism and strategic partnerships.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage framed the business success as evidence of Trump's enduring brand strength and business acumen. The reporting emphasized record-breaking profits and successful international expansion, presenting the development in a favorable light for Trump's business reputation.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-09-21-001",
     "date": "2026-09-21",
     "headline": "Trump Raises $42 Million in First Week of 2028 Campaign",
