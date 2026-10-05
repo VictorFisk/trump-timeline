@@ -1,5 +1,49 @@
 [
   {
+    "id": "trump-2026-10-05-01",
+    "date": "2026-10-05",
+    "headline": "Poll Shows Trump Leading Republican 2028 Primary Field by Wide Margin",
+    "source": "Washington Post",
+    "summary": "A new national poll indicates Donald Trump holds a 35-point lead over other potential Republican presidential candidates for 2028. The polling data shows sustained support among Republican voters despite competition from younger party figures.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage presented the polling as evidence of Trump's dominant position in Republican politics. While some analysis questioned electability in a general election, the immediate framing emphasized his strong standing with the party base.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-04-01",
+    "date": "2026-10-04",
+    "headline": "Trump Holds Joint Rally with Republican Gubernatorial Candidates",
+    "source": "Associated Press",
+    "summary": "Former President Trump appeared with three Republican gubernatorial candidates in key swing states, drawing crowds exceeding 15,000 attendees. The rallies focused on state-level races and Trump's continued criticism of the current administration's policies.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage was factual and balanced, noting large crowd sizes and Trump's campaign involvement without heavy editorial framing. Reports focused on the event details and political implications for state races.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-02-01",
+    "date": "2026-10-02",
+    "headline": "New York AG Announces Settlement Agreement with Trump Organization",
+    "source": "New York Times",
+    "summary": "New York Attorney General's office reached a settlement with the Trump Organization over business practice disputes, requiring payment of $8 million in penalties. Trump representatives described the settlement as closing the matter without admission of wrongdoing.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Media coverage highlighted the financial penalty and ongoing scrutiny of Trump business practices. While Trump's team emphasized no wrongdoing admission, most outlets framed the settlement as accountability for questionable practices.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-09-29-01",
+    "date": "2026-09-29",
+    "headline": "Federal Appeals Court Dismisses Remaining Trump Organization Civil Case",
+    "source": "Reuters",
+    "summary": "A federal appeals court dismissed a long-standing civil case against the Trump Organization, citing procedural issues and statute of limitations concerns. The ruling represents a legal victory for Trump's business interests, though other investigations remain ongoing.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Coverage emphasized this as a significant legal win for Trump and his organization. Most outlets noted the dismissal favorably from Trump's perspective, while acknowledging continuing legal challenges elsewhere.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-09-28-001",
     "date": "2026-09-28",
     "headline": "Trump's Truth Social Platform Reports User Growth Decline in Q3",
