@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-10-12-001",
+    "date": "2026-10-12",
+    "headline": "Trump Names Former Chief of Staff as 2028 Campaign Manager",
+    "source": "New York Times",
+    "summary": "Donald Trump announced veteran political operative Susie Wiles as his 2028 campaign manager, praising her role in his previous campaigns. Wiles previously served in senior roles during Trump's 2016 and 2024 campaigns and is known for her Florida political expertise.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage treated the appointment as standard campaign news, focusing on Wiles' experience and qualifications. Most outlets provided biographical information and analysis of the strategic choice without strong positive or negative framing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-11-001",
+    "date": "2026-10-11",
+    "headline": "Trump Social Media Platform Reports Q3 Revenue Surge",
+    "source": "Bloomberg",
+    "summary": "Truth Social's parent company reported a 340% year-over-year increase in third-quarter revenue, driven by advertising growth and increased user engagement. Company executives attributed the surge partly to renewed interest following Trump's campaign announcement.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Financial media covered the revenue growth as a legitimate business story. Coverage highlighted the platform's improved commercial viability and Trump's ability to monetize his political brand.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-10-001",
+    "date": "2026-10-10",
+    "headline": "New Poll Shows Trump Leading GOP 2028 Primary Field by 35 Points",
+    "source": "CNN",
+    "summary": "A CNN/SSRS poll released Friday shows Trump with 58% support among Republican primary voters, far ahead of potential rivals. Florida Governor Ron DeSantis polled second at 23%, with other potential candidates in single digits.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented polling data objectively while noting the early timing. Most outlets acknowledged Trump's dominant position while cautioning that the race remains in its earliest stages.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-09-001",
+    "date": "2026-10-09",
+    "headline": "Republican Party Leaders Express Concerns Over Trump's Early 2028 Entry",
+    "source": "Washington Post",
+    "summary": "Senior Republican Party officials privately voiced concerns that Trump's early campaign launch could overshadow the 2026 midterm elections. Several GOP strategists told reporters they prefer focus remain on congressional races rather than the 2028 presidential contest.",
+    "sentiment": "negative",
+    "sentimentScore": -4,
+    "sentimentReason": "Coverage focused on internal party tensions and strategic concerns. The reporting emphasized divisions within the GOP and potential negative impacts on downballot Republican candidates.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-08-001",
+    "date": "2026-10-08",
+    "headline": "Trump Fundraising Reaches $45 Million in First 72 Hours of Campaign",
+    "source": "Fox News",
+    "summary": "The Trump 2028 campaign announced it raised $45 million in its first three days, breaking previous Republican primary fundraising records. Campaign officials stated donations came from over 400,000 individual contributors across all 50 states.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Conservative outlets highlighted the record-breaking fundraising as evidence of strong grassroots support. Coverage emphasized Trump's continued dominance in Republican fundraising and donor enthusiasm.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-10-05-01",
     "date": "2026-10-05",
     "headline": "Poll Shows Trump Leading Republican 2028 Primary Field by Wide Margin",
