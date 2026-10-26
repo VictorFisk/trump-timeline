@@ -1,5 +1,49 @@
 [
   {
+    "id": "trump-2026-10-26-007",
+    "date": "2026-10-26",
+    "headline": "Trump Holds Rally in Michigan Drawing Thousands Days Before Midterm Elections",
+    "source": "BBC",
+    "summary": "Former President Donald Trump addressed a crowd estimated at 15,000 supporters in Warren, Michigan, in one of his final rallies before the midterm elections. Trump criticized current administration policies and urged supporters to vote for Republican candidates.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage was balanced and descriptive of the campaign event without strong positive or negative framing. The reporting focused on crowd size and standard campaign messaging without editorial slant.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-24-006",
+    "date": "2026-10-24",
+    "headline": "Trump Raises $45 Million in Third Quarter Fundraising Haul",
+    "source": "Associated Press",
+    "summary": "Donald Trump's political action committee reported raising $45 million between July and September 2026, according to FEC filings released Thursday. The funds will be used to support endorsed candidates and explore a potential 2028 presidential campaign.",
+    "sentiment": "positive",
+    "sentimentScore": 6,
+    "sentimentReason": "Coverage highlighted strong fundraising capabilities and continued donor enthusiasm. The framing emphasized financial strength and political viability with focus on impressive dollar amounts.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-22-005",
+    "date": "2026-10-22",
+    "headline": "Special Counsel Files New Evidence in Trump January 6 Investigation",
+    "source": "CNN",
+    "summary": "Federal prosecutors submitted additional witness testimony and documentary evidence to the court in the ongoing January 6 prosecution of Donald Trump. The filing included previously unreleased communications from key White House officials during the 2021 Capitol breach.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "The coverage emphasized mounting legal challenges and new incriminating evidence against Trump. The framing focused on expanding prosecutorial case strength and continued legal vulnerability.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-18-003",
+    "date": "2026-10-18",
+    "headline": "Trump-Backed Candidates Lead in Several Battleground Polls Two Weeks Before Election",
+    "source": "Fox News",
+    "summary": "New polling data shows Republican candidates endorsed by Donald Trump holding leads in Senate races in Nevada and Wisconsin. The polling suggests Trump's endorsement continues to carry significant weight with Republican primary voters and general election supporters.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "The coverage highlighted Trump's continued political influence and winning momentum. The framing emphasized success and electoral strength of Trump-aligned candidates heading into elections.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-10-12-001",
     "date": "2026-10-12",
     "headline": "Trump Names Former Chief of Staff as 2028 Campaign Manager",
