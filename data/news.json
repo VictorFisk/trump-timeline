@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-11-02-001",
+    "date": "2026-11-02",
+    "headline": "Trump Announces Final Campaign Blitz Through Six Battleground States",
+    "source": "New York Times",
+    "summary": "Donald Trump unveiled plans for a six-state campaign tour in the 48 hours before midterm elections, visiting Michigan, Wisconsin, Pennsylvania, Arizona, Nevada, and Georgia. The aggressive schedule reflects Republican confidence in gaining control of Congress and Trump's desire to claim credit for potential GOP victories.",
+    "sentiment": "neutral",
+    "sentimentScore": 1,
+    "sentimentReason": "Coverage presented the campaign schedule factually while noting both the strategic political calculations and Trump's motivations. The reporting balanced acknowledgment of Republican optimism with standard campaign trail coverage without strong editorial slant.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-01-001",
+    "date": "2026-11-01",
+    "headline": "Trump Faces New Defamation Lawsuit from Former Campaign Staffer",
+    "source": "CNN",
+    "summary": "A former campaign staffer filed a defamation lawsuit against Donald Trump in New York federal court, alleging false statements made during a recent interview damaged her reputation and career prospects. The lawsuit seeks $10 million in damages and marks the latest in a series of legal challenges facing the former president.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage emphasized the accumulation of legal problems and presented the lawsuit as part of an ongoing pattern of litigation. The framing focused on potential legal liability and reputational concerns for Trump.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-31-001",
+    "date": "2026-10-31",
+    "headline": "GOP Leaders Meet with Trump to Discuss 2027 Legislative Agenda",
+    "source": "Associated Press",
+    "summary": "Republican congressional leaders held a private meeting with Donald Trump at Mar-a-Lago to coordinate strategy for a potential GOP majority in 2027. Sources familiar with the meeting said discussions centered on tax policy, immigration reform, and investigative priorities.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the meeting as standard political coordination between party leaders. While it demonstrated Trump's central role in GOP planning, the reporting remained factual without strong positive or negative framing.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-30-001",
+    "date": "2026-10-30",
+    "headline": "Trump Organization Reports Strong Third Quarter Earnings",
+    "source": "CNBC",
+    "summary": "The Trump Organization announced third quarter earnings showing a 22% increase in revenue compared to the same period last year, driven primarily by golf resort bookings and real estate holdings. Company executives attributed the growth to increased tourism and strong performance in the luxury hospitality sector.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage focused on the business success and financial performance metrics. The reporting was largely factual but highlighted positive business momentum and growth, which reflects favorably on Trump's business brand.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-29-001",
+    "date": "2026-10-29",
+    "headline": "Trump-Backed Candidates Lead in Key Senate Races, New Polls Show",
+    "source": "Fox News",
+    "summary": "New polling data shows candidates endorsed by Donald Trump leading in three critical Senate races in Nevada, Pennsylvania, and Georgia. The polls suggest Trump's endorsement continues to carry significant weight with Republican voters heading into the final week before the midterm elections.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Coverage framed the polling results as validation of Trump's continued influence within the Republican Party. The reporting emphasized electoral success and Trump's kingmaker role, presenting him as a powerful force in shaping the midterm landscape.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-10-28-001",
+    "date": "2026-10-28",
+    "headline": "Federal Appeals Court Denies Trump Motion in Documents Case",
+    "source": "Washington Post",
+    "summary": "A federal appeals court rejected Donald Trump's motion to dismiss charges related to classified documents handling. The three-judge panel ruled unanimously that the case could proceed to trial, rejecting arguments from Trump's legal team about presidential immunity.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized the legal setback for Trump and quoted legal experts noting the significance of the unanimous decision. The framing highlighted continued legal challenges facing the former president with implications for his political future.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-10-26-007",
     "date": "2026-10-26",
     "headline": "Trump Holds Rally in Michigan Drawing Thousands Days Before Midterm Elections",
