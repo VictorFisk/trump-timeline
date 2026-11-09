@@ -1,5 +1,71 @@
 [
   {
+    "id": "trump-2026-11-08-gop-meeting",
+    "date": "2026-11-08",
+    "headline": "Republican Leaders Meet with Trump to Discuss 2027 Legislative Agenda",
+    "source": "Fox News",
+    "summary": "Congressional Republican leaders traveled to Mar-a-Lago to meet with Donald Trump about coordinating the party's legislative priorities. Discussions focused on immigration reform, tax policy, and energy independence as Republicans prepared for the new Congress.",
+    "sentiment": "positive",
+    "sentimentScore": 5,
+    "sentimentReason": "Coverage highlighted Trump's central role in Republican Party strategy and leadership consultation. The framing emphasized unity within the party and Trump's continued relevance to GOP policy-making, presenting the meeting as productive and forward-looking.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-07-legal-hearing",
+    "date": "2026-11-07",
+    "headline": "Federal Appeals Court Hears Arguments in Trump Documents Case",
+    "source": "New York Times",
+    "summary": "A federal appeals court heard oral arguments regarding the classified documents case involving Donald Trump. Trump's legal team argued for dismissal based on presidential immunity claims, while prosecutors maintained that no one is above the law.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage focused on ongoing legal jeopardy and serious nature of classified document allegations. The framing emphasized the gravity of the charges and legal proceedings, with attention to potential consequences, though maintaining factual reporting standards.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-06-victory-speech",
+    "date": "2026-11-06",
+    "headline": "Trump Declares Republican Victories a 'Mandate' at Mar-a-Lago Event",
+    "source": "Washington Post",
+    "summary": "Donald Trump held a news conference at his Mar-a-Lago estate claiming Republican gains in the midterms represented a mandate for his political agenda. He used the event to hint at future political plans while criticizing the Biden administration's policies.",
+    "sentiment": "neutral",
+    "sentimentScore": -1,
+    "sentimentReason": "Coverage reported Trump's claims while providing context about actual election margins and divided results. The framing questioned the 'mandate' characterization by including expert analysis, presenting a fact-checking approach to Trump's assertions.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-05-midterm-results",
+    "date": "2026-11-05",
+    "headline": "Trump-Backed Candidates Show Mixed Results in Midterm Elections",
+    "source": "Associated Press",
+    "summary": "Initial results from the 2026 midterm elections showed Trump-endorsed candidates winning approximately 60% of their races, with notable losses in key Senate contests. Analysts noted Trump's endorsement remained influential in Republican primaries but showed varied success in general elections.",
+    "sentiment": "neutral",
+    "sentimentScore": 0,
+    "sentimentReason": "Coverage provided balanced analysis of election outcomes with data-driven reporting. The framing acknowledged both Trump's continued influence within the Republican party and the limitations of his endorsement power, maintaining objective tone throughout.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-04-election-day-statement",
+    "date": "2026-11-04",
+    "headline": "Trump Claims Voting Irregularities Before Polls Close in Midterm Elections",
+    "source": "CNN",
+    "summary": "Donald Trump posted on social media alleging unspecified voting irregularities in several swing states hours before polls closed on Election Day. Election officials in the named states issued statements denying any systemic problems and affirming election security measures were functioning properly.",
+    "sentiment": "negative",
+    "sentimentScore": -6,
+    "sentimentReason": "Coverage emphasized concerns about premature claims undermining election integrity. The framing highlighted election officials' rebuttals and focused on potential damage to public confidence in the electoral process, presenting Trump's statements critically.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-03-midterm-rallies",
+    "date": "2026-11-03",
+    "headline": "Trump Holds Final Midterm Rally as Republicans Eye Congressional Gains",
+    "source": "Reuters",
+    "summary": "Former President Donald Trump held his final campaign rally before the 2026 midterm elections in Pennsylvania, supporting Republican candidates. Trump focused his speech on immigration policy and economic issues, drawing thousands of supporters to the event.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage presented the rally factually with focus on Trump's continued political influence. The framing was balanced, noting both his active campaign involvement and the partisan nature of his messaging without strong editorial bias.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-11-02-001",
     "date": "2026-11-02",
     "headline": "Trump Announces Final Campaign Blitz Through Six Battleground States",
