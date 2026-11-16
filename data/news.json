@@ -1,5 +1,60 @@
 [
   {
+    "id": "trump-2026-11-16-001",
+    "date": "2026-11-16",
+    "headline": "Trump Golf Course Faces Environmental Violations Lawsuit",
+    "source": "BBC",
+    "summary": "Environmental groups filed suit against Trump National Golf Club in New Jersey, alleging violations of coastal protection regulations. The lawsuit seeks penalties and remediation of alleged wetland damage.",
+    "sentiment": "negative",
+    "sentimentScore": -5,
+    "sentimentReason": "Coverage focused on environmental concerns and regulatory challenges to Trump's business operations. Media presented the lawsuit as part of ongoing scrutiny of Trump properties' environmental practices.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-15-001",
+    "date": "2026-11-15",
+    "headline": "Trump Leads GOP Field by 25 Points in New National Poll",
+    "source": "Fox News",
+    "summary": "A new Fox News poll shows Donald Trump maintaining a dominant lead over potential Republican rivals for the 2028 presidential nomination. Trump received 58% support among likely Republican primary voters.",
+    "sentiment": "positive",
+    "sentimentScore": 8,
+    "sentimentReason": "Coverage emphasized Trump's commanding position in the Republican field and strong support among the base. Media portrayed the numbers as evidence of his enduring political strength.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-13-001",
+    "date": "2026-11-13",
+    "headline": "Trump Endorses Six Candidates in 2027 Governor Races",
+    "source": "CNN",
+    "summary": "Donald Trump announced endorsements for gubernatorial candidates in Virginia, New Jersey, and four other states holding elections in 2027. Political analysts noted Trump's continued influence in Republican primary politics.",
+    "sentiment": "neutral",
+    "sentimentScore": 2,
+    "sentimentReason": "Coverage provided straightforward reporting on the endorsements with mixed analysis about their potential impact. Media presented both supportive and skeptical perspectives on Trump's kingmaker role.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-12-001",
+    "date": "2026-11-12",
+    "headline": "Trump Media Stock Surges 18% on Quarterly Earnings Report",
+    "source": "Wall Street Journal",
+    "summary": "Shares of Trump Media & Technology Group jumped following better-than-expected quarterly results. The company reported growing user engagement on its Truth Social platform and expanding advertising revenue.",
+    "sentiment": "positive",
+    "sentimentScore": 7,
+    "sentimentReason": "Financial media highlighted the strong market performance and business success. Coverage portrayed the earnings as validation of Trump's media venture strategy.",
+    "url": ""
+  },
+  {
+    "id": "trump-2026-11-10-001",
+    "date": "2026-11-10",
+    "headline": "Federal Court Dismisses Trump Appeal in Civil Fraud Case",
+    "source": "Associated Press",
+    "summary": "A federal appeals court rejected Donald Trump's motion to dismiss a civil fraud lawsuit brought by New York state authorities. The ruling allows the case to proceed to trial, with proceedings expected to begin in early 2027.",
+    "sentiment": "negative",
+    "sentimentScore": -7,
+    "sentimentReason": "Coverage emphasized the legal setback and continued legal challenges facing Trump. Media framed the decision as a significant blow to Trump's legal defense strategy.",
+    "url": ""
+  },
+  {
     "id": "trump-2026-11-08-gop-meeting",
     "date": "2026-11-08",
     "headline": "Republican Leaders Meet with Trump to Discuss 2027 Legislative Agenda",
